@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YearBornViewController" customModule="LoveDating" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Screen Shot 2019-05-04 at 10.37.06 AM" translatesAutoresizingMaskIntoConstraints="NO" id="eXa-aj-VcX">
+                    <rect key="frame" x="0.0" y="0.0" width="386" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.68500268460000002" green="0.36031869049999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eXa-aj-VcX" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="2gR-61-hUU"/>
+                <constraint firstItem="eXa-aj-VcX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ZBB-2y-88D"/>
+                <constraint firstItem="eXa-aj-VcX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="e2E-Dv-1zc"/>
+                <constraint firstItem="eXa-aj-VcX" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="ikg-xF-RgF"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="40.799999999999997" y="46.326836581709152"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Screen Shot 2019-05-04 at 10.37.06 AM" width="220" height="461"/>
+    </resources>
+</document>

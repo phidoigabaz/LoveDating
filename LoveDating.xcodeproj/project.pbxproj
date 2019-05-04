@@ -7,14 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A12934196D17142B5A3745D2 /* Pods_LoveDating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A15B7CD7325B75F0BE02D9A /* Pods_LoveDating.framework */; };
+		B616AD8D227D47F4005375DA /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616AD8C227D47F4005375DA /* IntroViewController.swift */; };
+		B616AD90227D789D005375DA /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616AD8F227D789D005375DA /* GradiantView.swift */; };
+		B61D8743227ADDC800EC94E2 /* UIButtomCustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8742227ADDC800EC94E2 /* UIButtomCustomExtension.swift */; };
+		B6EEF0C3227BD83000237180 /* TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0C1227BD83000237180 /* TransitionCoordinator.swift */; };
+		B6EEF0C4227BD83000237180 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0C2227BD83000237180 /* CircularTransition.swift */; };
+		B6EEF0C9227BF4FB00237180 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0C6227BF4FB00237180 /* UIColorExtension.swift */; };
+		B6EEF0CA227BF4FB00237180 /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0C7227BF4FB00237180 /* UICollectionViewCellExtension.swift */; };
+		B6EEF0CB227BF4FB00237180 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0C8227BF4FB00237180 /* UIColor.swift */; };
+		B6EEF0CF227BF7E200237180 /* YearBornViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0CD227BF7E200237180 /* YearBornViewController.swift */; };
+		B6EEF0D0227BF7E200237180 /* YearBornViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EEF0CE227BF7E200237180 /* YearBornViewController.xib */; };
+		B6EEF0D3227BFAD700237180 /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0D1227BFAD700237180 /* User.xcdatamodeld */; };
+		B6EEF0F9227C368F00237180 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0F8227C368F00237180 /* Constants.swift */; };
+		B6EEF0FF227C36B400237180 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0FC227C36B400237180 /* BaseNavigationController.swift */; };
+		B6EEF100227C36B400237180 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0FD227C36B400237180 /* BaseViewController.swift */; };
+		B6EEF101227C36B400237180 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0FE227C36B400237180 /* BaseTableViewCell.swift */; };
+		B6EEF108227C36D600237180 /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF102227C36D600237180 /* UIBarButtonItemExtension.swift */; };
+		B6EEF109227C36D600237180 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF103227C36D600237180 /* UIViewExtension.swift */; };
+		B6EEF10A227C36D600237180 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF104227C36D600237180 /* UITableViewCellExtension.swift */; };
+		B6EEF10B227C36D600237180 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF105227C36D600237180 /* UIViewControllerExtension.swift */; };
+		B6EEF10C227C36D600237180 /* UINotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF106227C36D600237180 /* UINotificationExtension.swift */; };
+		B6EEF10D227C36D600237180 /* UITableViewHeaderFooterViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF107227C36D600237180 /* UITableViewHeaderFooterViewExtension.swift */; };
+		B6EEF10F227C3D6700237180 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF10E227C3D6700237180 /* UIImageViewExtension.swift */; };
+		B6EEF111227C4FA700237180 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF110227C4FA700237180 /* StringExtension.swift */; };
+		B6EEF115227C520C00237180 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF113227C520C00237180 /* HomeViewController.swift */; };
+		B6EEF116227C520C00237180 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EEF114227C520C00237180 /* HomeViewController.xib */; };
 		B6F901EE2272D92300988C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F901ED2272D92300988C89 /* AppDelegate.swift */; };
 		B6F901F02272D92300988C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F901EF2272D92300988C89 /* ViewController.swift */; };
 		B6F901F32272D92300988C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F901F12272D92300988C89 /* Main.storyboard */; };
 		B6F901F52272D92400988C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F901F42272D92400988C89 /* Assets.xcassets */; };
 		B6F901F82272D92400988C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F901F62272D92400988C89 /* LaunchScreen.storyboard */; };
+		B6F902022272DCD600988C89 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6F902002272DCD600988C89 /* IntroViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A15B7CD7325B75F0BE02D9A /* Pods_LoveDating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveDating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC5CD93E8ECADC53EE750F9 /* Pods-LoveDating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveDating.release.xcconfig"; path = "Target Support Files/Pods-LoveDating/Pods-LoveDating.release.xcconfig"; sourceTree = "<group>"; };
+		B616AD8C227D47F4005375DA /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		B616AD8F227D789D005375DA /* GradiantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
+		B61D8742227ADDC800EC94E2 /* UIButtomCustomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtomCustomExtension.swift; sourceTree = "<group>"; };
+		B6EEF0C1227BD83000237180 /* TransitionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionCoordinator.swift; sourceTree = "<group>"; };
+		B6EEF0C2227BD83000237180 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		B6EEF0C6227BF4FB00237180 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		B6EEF0C7227BF4FB00237180 /* UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtension.swift; sourceTree = "<group>"; };
+		B6EEF0C8227BF4FB00237180 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		B6EEF0CD227BF7E200237180 /* YearBornViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearBornViewController.swift; sourceTree = "<group>"; };
+		B6EEF0CE227BF7E200237180 /* YearBornViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearBornViewController.xib; sourceTree = "<group>"; };
+		B6EEF0D2227BFAD700237180 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
+		B6EEF0D4227BFB4000237180 /* User 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "User 2.xcdatamodel"; sourceTree = "<group>"; };
+		B6EEF0F8227C368F00237180 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B6EEF0FC227C36B400237180 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		B6EEF0FD227C36B400237180 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B6EEF0FE227C36B400237180 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		B6EEF102227C36D600237180 /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		B6EEF103227C36D600237180 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		B6EEF104227C36D600237180 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		B6EEF105227C36D600237180 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		B6EEF106227C36D600237180 /* UINotificationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINotificationExtension.swift; sourceTree = "<group>"; };
+		B6EEF107227C36D600237180 /* UITableViewHeaderFooterViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewHeaderFooterViewExtension.swift; sourceTree = "<group>"; };
+		B6EEF10E227C3D6700237180 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		B6EEF110227C4FA700237180 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		B6EEF113227C520C00237180 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B6EEF114227C520C00237180 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B6F901EA2272D92300988C89 /* LoveDating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveDating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F901ED2272D92300988C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6F901EF2272D92300988C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +77,8 @@
 		B6F901F42272D92400988C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6F901F72272D92400988C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6F901F92272D92400988C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F902002272DCD600988C89 /* IntroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		BC9CFFD5502912326C614895 /* Pods-LoveDating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveDating.debug.xcconfig"; path = "Target Support Files/Pods-LoveDating/Pods-LoveDating.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +86,128 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12934196D17142B5A3745D2 /* Pods_LoveDating.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CCB38063BF0F5E55B6429B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A15B7CD7325B75F0BE02D9A /* Pods_LoveDating.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B616AD8B227D4571005375DA /* Scense */ = {
+			isa = PBXGroup;
+			children = (
+				B616AD8E227D4A32005375DA /* Menu */,
+				B6F902032272E19200988C89 /* Intro */,
+				B6EEF0CC227BF7A300237180 /* YearBorn */,
+				B6EEF112227C520000237180 /* Home */,
+			);
+			path = Scense;
+			sourceTree = "<group>";
+		};
+		B616AD8E227D4A32005375DA /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B61D8744227ADDCB00EC94E2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B6EEF0F7227C368100237180 /* Constants */,
+				B6EEF0C0227BD7EA00237180 /* Libary */,
+				B6EEF0C5227BF4E700237180 /* Extension */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		B6EEF0C0227BD7EA00237180 /* Libary */ = {
+			isa = PBXGroup;
+			children = (
+				B6EEF0C2227BD83000237180 /* CircularTransition.swift */,
+				B6EEF0C1227BD83000237180 /* TransitionCoordinator.swift */,
+			);
+			name = Libary;
+			sourceTree = "<group>";
+		};
+		B6EEF0C5227BF4E700237180 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6EEF102227C36D600237180 /* UIBarButtonItemExtension.swift */,
+				B6EEF106227C36D600237180 /* UINotificationExtension.swift */,
+				B6EEF104227C36D600237180 /* UITableViewCellExtension.swift */,
+				B6EEF107227C36D600237180 /* UITableViewHeaderFooterViewExtension.swift */,
+				B6EEF105227C36D600237180 /* UIViewControllerExtension.swift */,
+				B6EEF103227C36D600237180 /* UIViewExtension.swift */,
+				B61D8742227ADDC800EC94E2 /* UIButtomCustomExtension.swift */,
+				B6EEF0C7227BF4FB00237180 /* UICollectionViewCellExtension.swift */,
+				B6EEF0C8227BF4FB00237180 /* UIColor.swift */,
+				B6EEF0C6227BF4FB00237180 /* UIColorExtension.swift */,
+				B6EEF10E227C3D6700237180 /* UIImageViewExtension.swift */,
+				B6EEF110227C4FA700237180 /* StringExtension.swift */,
+				B616AD8F227D789D005375DA /* GradiantView.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		B6EEF0CC227BF7A300237180 /* YearBorn */ = {
+			isa = PBXGroup;
+			children = (
+				B6EEF0CD227BF7E200237180 /* YearBornViewController.swift */,
+				B6EEF0CE227BF7E200237180 /* YearBornViewController.xib */,
+			);
+			path = YearBorn;
+			sourceTree = "<group>";
+		};
+		B6EEF0F7227C368100237180 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B6EEF0F8227C368F00237180 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		B6EEF0FA227C369900237180 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B6EEF0FB227C36A000237180 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B6EEF0FC227C36B400237180 /* BaseNavigationController.swift */,
+				B6EEF0FE227C36B400237180 /* BaseTableViewCell.swift */,
+				B6EEF0FD227C36B400237180 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B6EEF112227C520000237180 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B6EEF113227C520C00237180 /* HomeViewController.swift */,
+				B6EEF114227C520C00237180 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		B6F901E12272D92300988C89 = {
 			isa = PBXGroup;
 			children = (
 				B6F901EC2272D92300988C89 /* LoveDating */,
 				B6F901EB2272D92300988C89 /* Products */,
+				BEF62D66224FE951BEF1733C /* Pods */,
+				3CCB38063BF0F5E55B6429B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +222,37 @@
 		B6F901EC2272D92300988C89 /* LoveDating */ = {
 			isa = PBXGroup;
 			children = (
+				B616AD8B227D4571005375DA /* Scense */,
+				B6EEF0FB227C36A000237180 /* Base */,
+				B6EEF0FA227C369900237180 /* Model */,
+				B61D8744227ADDCB00EC94E2 /* Helper */,
 				B6F901ED2272D92300988C89 /* AppDelegate.swift */,
 				B6F901EF2272D92300988C89 /* ViewController.swift */,
 				B6F901F12272D92300988C89 /* Main.storyboard */,
 				B6F901F42272D92400988C89 /* Assets.xcassets */,
 				B6F901F62272D92400988C89 /* LaunchScreen.storyboard */,
 				B6F901F92272D92400988C89 /* Info.plist */,
+				B6EEF0D1227BFAD700237180 /* User.xcdatamodeld */,
 			);
 			path = LoveDating;
+			sourceTree = "<group>";
+		};
+		B6F902032272E19200988C89 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				B616AD8C227D47F4005375DA /* IntroViewController.swift */,
+				B6F902002272DCD600988C89 /* IntroViewController.xib */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		BEF62D66224FE951BEF1733C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC9CFFD5502912326C614895 /* Pods-LoveDating.debug.xcconfig */,
+				ABC5CD93E8ECADC53EE750F9 /* Pods-LoveDating.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6F901FC2272D92400988C89 /* Build configuration list for PBXNativeTarget "LoveDating" */;
 			buildPhases = (
+				9578540EB6330CF3C9C87721 /* [CP] Check Pods Manifest.lock */,
 				B6F901E62272D92300988C89 /* Sources */,
 				B6F901E72272D92300988C89 /* Frameworks */,
 				B6F901E82272D92300988C89 /* Resources */,
+				DE5A9DEF44E3B4A3C08E072E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +317,92 @@
 			files = (
 				B6F901F82272D92400988C89 /* LaunchScreen.storyboard in Resources */,
 				B6F901F52272D92400988C89 /* Assets.xcassets in Resources */,
+				B6EEF0D0227BF7E200237180 /* YearBornViewController.xib in Resources */,
 				B6F901F32272D92300988C89 /* Main.storyboard in Resources */,
+				B6F902022272DCD600988C89 /* IntroViewController.xib in Resources */,
+				B6EEF116227C520C00237180 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9578540EB6330CF3C9C87721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoveDating-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE5A9DEF44E3B4A3C08E072E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoveDating/Pods-LoveDating-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HeartLoadingView/HeartLoadingView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HeartLoadingView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoveDating/Pods-LoveDating-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6F901E62272D92300988C89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EEF0FF227C36B400237180 /* BaseNavigationController.swift in Sources */,
+				B6EEF0CA227BF4FB00237180 /* UICollectionViewCellExtension.swift in Sources */,
+				B6EEF10C227C36D600237180 /* UINotificationExtension.swift in Sources */,
+				B6EEF10A227C36D600237180 /* UITableViewCellExtension.swift in Sources */,
+				B6EEF0C9227BF4FB00237180 /* UIColorExtension.swift in Sources */,
+				B6EEF10F227C3D6700237180 /* UIImageViewExtension.swift in Sources */,
+				B6EEF108227C36D600237180 /* UIBarButtonItemExtension.swift in Sources */,
+				B6EEF0C4227BD83000237180 /* CircularTransition.swift in Sources */,
+				B6EEF100227C36B400237180 /* BaseViewController.swift in Sources */,
+				B6EEF0CF227BF7E200237180 /* YearBornViewController.swift in Sources */,
+				B6EEF115227C520C00237180 /* HomeViewController.swift in Sources */,
+				B6EEF109227C36D600237180 /* UIViewExtension.swift in Sources */,
+				B6EEF0CB227BF4FB00237180 /* UIColor.swift in Sources */,
+				B61D8743227ADDC800EC94E2 /* UIButtomCustomExtension.swift in Sources */,
+				B6EEF0D3227BFAD700237180 /* User.xcdatamodeld in Sources */,
+				B616AD90227D789D005375DA /* GradiantView.swift in Sources */,
+				B616AD8D227D47F4005375DA /* IntroViewController.swift in Sources */,
 				B6F901F02272D92300988C89 /* ViewController.swift in Sources */,
+				B6EEF10D227C36D600237180 /* UITableViewHeaderFooterViewExtension.swift in Sources */,
+				B6EEF0C3227BD83000237180 /* TransitionCoordinator.swift in Sources */,
 				B6F901EE2272D92300988C89 /* AppDelegate.swift in Sources */,
+				B6EEF10B227C36D600237180 /* UIViewControllerExtension.swift in Sources */,
+				B6EEF101227C36B400237180 /* BaseTableViewCell.swift in Sources */,
+				B6EEF111227C4FA700237180 /* StringExtension.swift in Sources */,
+				B6EEF0F9227C368F00237180 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,17 +546,21 @@
 		};
 		B6F901FD2272D92400988C89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9CFFD5502912326C614895 /* Pods-LoveDating.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SLX6K58ZQH;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Developer GEM (QNQB6HR7FU)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4VPKE8T8P8;
 				INFOPLIST_FILE = LoveDating/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = d09.LoveDating;
+				PRODUCT_BUNDLE_IDENTIFIER = net.dat.lovedating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = net.dat.lovedating;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +568,21 @@
 		};
 		B6F901FE2272D92400988C89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC5CD93E8ECADC53EE750F9 /* Pods-LoveDating.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SLX6K58ZQH;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Developer GEM (QNQB6HR7FU)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4VPKE8T8P8;
 				INFOPLIST_FILE = LoveDating/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = d09.LoveDating;
+				PRODUCT_BUNDLE_IDENTIFIER = net.dat.lovedating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = net.dat.lovedating;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,6 +610,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6EEF0D1227BFAD700237180 /* User.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6EEF0D4227BFB4000237180 /* User 2.xcdatamodel */,
+				B6EEF0D2227BFAD700237180 /* User.xcdatamodel */,
+			);
+			currentVersion = B6EEF0D2227BFAD700237180 /* User.xcdatamodel */;
+			path = User.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B6F901E22272D92300988C89 /* Project object */;
 }

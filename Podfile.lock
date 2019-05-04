@@ -1,0 +1,16 @@
+PODS:
+  - HeartLoadingView (0.2.0)
+
+DEPENDENCIES:
+  - HeartLoadingView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HeartLoadingView
+
+SPEC CHECKSUMS:
+  HeartLoadingView: ae08da877ff4b39e10388595854788968ba36ba8
+
+PODFILE CHECKSUM: aa2384608f2eb091359840677f3d7b897e4895ba
+
+COCOAPODS: 1.6.1
