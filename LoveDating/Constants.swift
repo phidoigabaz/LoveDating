@@ -29,6 +29,7 @@ struct Constants {
     
     static let kUserDefault = "kUserdefault"
     static let kMapBoxOffline = "kMapBoxOffline"
+    static let kToastDuration = 1
     
     static let photoUrl = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference="
 }

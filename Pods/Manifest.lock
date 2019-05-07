@@ -1,16 +1,24 @@
 PODS:
+  - FaveButton (3.2.0)
   - HeartLoadingView (0.2.0)
+  - Toast (4.0.0)
 
 DEPENDENCIES:
+  - FaveButton
   - HeartLoadingView
+  - Toast (~> 4.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FaveButton
     - HeartLoadingView
+    - Toast
 
 SPEC CHECKSUMS:
+  FaveButton: c818ab3d04d22a7615e93f08c7b35932acb3f735
   HeartLoadingView: ae08da877ff4b39e10388595854788968ba36ba8
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: aa2384608f2eb091359840677f3d7b897e4895ba
+PODFILE CHECKSUM: ece5b07866441f006df5a1996422ff1eb7f879d3
 
 COCOAPODS: 1.6.1

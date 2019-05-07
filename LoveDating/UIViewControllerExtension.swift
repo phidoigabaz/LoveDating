@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import Toast
+import LocalAuthentication
 
 extension UIViewController {
     class func initWithDefaultNib() -> Self {
@@ -82,7 +84,6 @@ extension UIViewController {
         let optionMenu = UIAlertController(title: nil, message: "Where would you like the image from?", preferredStyle: UIAlertController.Style.actionSheet)
         
         let photoLibraryOption = UIAlertAction(title: "Photo Library", style: UIAlertAction.Style.default, handler: { (alert: UIAlertAction!) -> Void in
-            print("from library")
             //shows the photo library
             imagePicker.allowsEditing = true
             imagePicker.sourceType = .photoLibrary
@@ -90,7 +91,6 @@ extension UIViewController {
             self.present(imagePicker, animated: true, completion: nil)
         })
         let cameraOption = UIAlertAction(title: "Take a photo", style: UIAlertAction.Style.default, handler: { (alert: UIAlertAction!) -> Void in
-            print("take a photo")
             //shows the camera
            imagePicker.allowsEditing = true
            imagePicker.sourceType = .camera
@@ -100,7 +100,6 @@ extension UIViewController {
         })
         let cancelOption = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: {
             (alert: UIAlertAction!) -> Void in
-            print("Cancel")
             self.dismiss(animated: true, completion: nil)
         })
         
@@ -112,5 +111,40 @@ extension UIViewController {
             print ("I don't have a camera.")
         }
         self.present(optionMenu, animated: true, completion: nil)
+    }
+    
+    func toast(_ message: String) {
+        if !message.isEmpty {
+            view.makeToast(message, duration: TimeInterval(Constants.kToastDuration), position: CSToastPositionCenter)
+        }
+    }
+    
+    func evaluatePolicy() {
+        let myContext = LAContext()
+        let myLocalizedReasonString = "Xin hãy nhập vân tay của bạn"
+        var authError: NSError?
+        if #available(iOS 8.0, macOS 10.12.1, *) {
+            if myContext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &authError) {
+                myContext.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: myLocalizedReasonString) { success, evaluateError in
+                    
+                    DispatchQueue.main.async {
+                        if success {
+                            // User authenticated successfully, take appropriate action
+                            let homeVC = HomeViewController.initWithDefaultNib()
+                            self.navigationController?.pushViewController(homeVC, animated: true)
+                        } else {
+                            // User did not authenticate successfully, look at error and take appropriate action
+                            print("failed")
+                        }
+                    }
+                }
+            } else {
+                // Could not evaluate policy; look at authError and present an appropriate message to user
+                print("Sorry!!.. Could not evaluate policy.")
+            }
+        } else {
+            // Fallback on earlier versions
+            print("Ooops!!.. This feature is not supported.")
+        }
     }
 }

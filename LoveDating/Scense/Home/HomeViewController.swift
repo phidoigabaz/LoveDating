@@ -7,36 +7,52 @@
 //
 
 import UIKit
+import FaveButton
 
 class HomeViewController: BaseViewController {
 
     @IBOutlet weak var girlImageView: UIImageView!
     @IBOutlet weak var boyImageView: UIImageView!
+    @IBOutlet weak var heartImageView: UIImageView!
+    @IBOutlet weak var loveButton: LoveButton!
     
     let imagePicker = UIImagePickerController()
     var isSelected: Bool = true
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
     override func setupView() {
-        let value = NSNumber(value: UIInterfaceOrientation.landscapeRight.rawValue)
-        UIDevice.current.setValue(value, forKey: "orientation")
+//        let value = NSNumber(value: UIInterfaceOrientation.landscapeRight.rawValue)
+//        UIDevice.current.setValue(value, forKey: "orientation")
         imagePicker.delegate = self
         girlImageView.setRadiusView(girlImageView.frame.height/2)
         boyImageView.setRadiusView(girlImageView.frame.height/2)
+        loveButton.isLoved = true
         let tapGirlGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(girlTapped))
         girlImageView.isUserInteractionEnabled = true
         girlImageView.addGestureRecognizer(tapGirlGestureRecognizer)
         let tapBoyGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(boyTapped))
         boyImageView.isUserInteractionEnabled = true
         boyImageView.addGestureRecognizer(tapBoyGestureRecognizer)
+        //girlImageView.image = UIImage.gifImageWithName(name: "boyGif")
+        //boyImageView.image = UIImage.gifImageWithName(name: "girlGif")
+        SaveCoreData.shared.getUserData()
+    }
+    
+    override func setupNav() {
+        self.navigationController?.navigationBar.isHidden = false
+        self.navigationItem.hidesBackButton = true
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem.menuBarItem(target: self, btnAction: #selector(menuBarItem))
+    }
+    
+    @objc func menuBarItem() {
+        
     }
     
     //MARK: METHODS
-    
     @objc func girlTapped() {
         isSelected = true
         showAlertImagePickerController(imagePicker)
@@ -47,9 +63,27 @@ class HomeViewController: BaseViewController {
         showAlertImagePickerController(imagePicker)
     }
     
+    @IBAction func onAnimatePressed(_ sender: LoveButton) {
+        //sender.isLoved = !sender.isLoved!
+    }
+    
     //rotate ViewController
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        return .landscape
+        return .portrait
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        let imageView = UIImageView(frame: self.loveButton.frame)
+        imageView.image = UIImage(named: "heart")
+        self.view.addSubview(imageView)
+
+        UIView.animate(withDuration: 1, animations: { () -> Void in
+            imageView.transform = CGAffineTransform(scaleX: 3,y: 3)
+            imageView.alpha = 0
+        }) { (completed) -> Void in
+            imageView.removeFromSuperview()
+        }
     }
 }
 

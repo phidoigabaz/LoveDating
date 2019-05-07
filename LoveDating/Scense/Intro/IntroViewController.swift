@@ -8,6 +8,7 @@
 
 import UIKit
 import LocalAuthentication
+import CoreData
 
 class IntroViewController: BaseViewController {
     
@@ -26,9 +27,11 @@ class IntroViewController: BaseViewController {
     @IBOutlet weak var yearBornLabel: UILabel!
     @IBOutlet weak var displayNameView: UIView!
     @IBOutlet weak var displaySkipButton: UIButton!
+    @IBOutlet weak var displayNameTextField: UITextField!
     
     let transition = CircularTransition()
     var isSkip: Bool = true
+    var gender: String = "nữ"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +55,15 @@ class IntroViewController: BaseViewController {
         yearBornLabel.text = String(Int(slider.value))
     }
     
+    override func setupNav() {
+        self.navigationController?.navigationBar.isHidden = false
+        self.navigationItem.hidesBackButton = true
+    }
+    
+    func checkLayout() {
+        
+    }
+    
     //animate transition ping
     func setupGenderView(_ female: UIView,_ male: UIView, _ femaleButton: UIButton,_ maleButton: UIButton,_ color1: UIColor,_ color2: UIColor,_ color3: UIColor,_ color4: UIColor) {
         femaleButton.titleLabel?.textColor = color1
@@ -64,11 +76,13 @@ class IntroViewController: BaseViewController {
 
     //MARK: ACTIONS
     @IBAction func onSelectFemalePressed(_ sender: UIButton) {
+        gender = "nữ"
         setupGenderView(maleView, femaleView, femaleButton, maleButton, .black, .lightGray, .femaleColor, .white)
         transition.animate(toView: femaleView, fromTriggerButton: maleButton)
     }
     
     @IBAction func onSelectMalePressed(_ sender: UIButton) {
+        gender = "nam"
         setupGenderView(femaleView, maleView, femaleButton, maleButton, .lightGray, .black, .white, .maleColor)
         transition.animate1(toView: maleView, fromTriggerButton: maleButton)
     }
@@ -94,34 +108,15 @@ class IntroViewController: BaseViewController {
     }
     
     @IBAction func onDisplaySkipPressed(_ sender: Any) {
-        let homeVC = HomeViewController.initWithDefaultNib()
-        self.navigationController?.pushViewController(homeVC, animated: true)
-//        let myContext = LAContext()
-//        let myLocalizedReasonString = "Xin hãy nhập vân tay của bạn"
-//        var authError: NSError?
-//        if #available(iOS 8.0, macOS 10.12.1, *) {
-//            if myContext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &authError) {
-//                myContext.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: myLocalizedReasonString) { success, evaluateError in
-//
-//                    DispatchQueue.main.async {
-//                        if success {
-//                            // User authenticated successfully, take appropriate action
-//                            let homeVC = HomeViewController.initWithDefaultNib()
-//                            self.navigationController?.pushViewController(homeVC, animated: true)
-//                        } else {
-//                            // User did not authenticate successfully, look at error and take appropriate action
-//                            print("failed")
-//                        }
-//                    }
-//                }
-//            } else {
-//                // Could not evaluate policy; look at authError and present an appropriate message to user
-//                print("Sorry!!.. Could not evaluate policy.")
-//            }
-//        } else {
-//            // Fallback on earlier versions
-//            print("Ooops!!.. This feature is not supported.")
-//        }
+        if !(displayNameTextField.text?.isEmpty)! {
+            SaveCoreData.shared.saveUserData(displayNameTextField.text!, gender, "", "", String(Int(slider.value)))
+            DataManager.save(object: displayNameTextField.text, forKey: Constants.kUserDefault)
+            let homeVC = HomeViewController.initWithDefaultNib()
+            self.navigationController?.pushViewController(homeVC, animated: true)
+            //evaluatePolicy()
+        } else {
+            toast("Xin hãy nhập tên của bạn")
+        }
     }
     
     //rotate viewcontroller

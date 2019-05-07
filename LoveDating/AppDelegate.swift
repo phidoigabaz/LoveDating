@@ -17,10 +17,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if !DataManager.getUserdefault().isEmpty {
+            setupHomeView()
+        } else {
+            setupRootView()
+        }
+        return true
+    }
+    
+    func setupRootView() {
         let introVC = IntroViewController.initWithDefaultNib()
         let introNav = BaseNavigationController.init(rootViewController: introVC)
         window?.rootViewController = introNav
-        return true
+    }
+    
+    func setupHomeView() {
+        let homeVC = HomeViewController.initWithDefaultNib()
+        let homeNav = BaseNavigationController.init(rootViewController: homeVC)
+        window?.rootViewController = homeNav
     }
     
     func getHeightSafeArea() -> CGFloat {
@@ -70,7 +84,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
          */
-        let container = NSPersistentContainer(name: "coredatademo")
+        let container = NSPersistentContainer(name: "User")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

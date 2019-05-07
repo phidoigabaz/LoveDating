@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IntroViewController" customModule="LoveDating" customModuleProvider="target">
             <connections>
+                <outlet property="displayNameTextField" destination="SKz-Kp-Exo" id="VDv-EF-F0A"/>
                 <outlet property="displayNameView" destination="LpN-AG-fNq" id="PAM-Mu-ecl"/>
                 <outlet property="displaySkipButton" destination="Z8f-AD-I8y" id="gUC-Um-ZLw"/>
                 <outlet property="femaleButton" destination="WNK-ao-dF8" id="qiH-kN-a0K"/>

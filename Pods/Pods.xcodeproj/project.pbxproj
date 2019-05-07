@@ -7,19 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		227CB72F8AF213047A01F6F4668A02A7 /* HeartLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B554F768FE6B24DB97F301970C52BE /* HeartLoadingView-dummy.m */; };
-		2728C570BF673BEC5D7A7B85FA7025D9 /* HeartLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFDC2C6416B4001CB1494DE6A11A3BC /* HeartLoadingView.swift */; };
-		30A7C81B91098F1118AE42A7569E1F32 /* Pods-LoveDating-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A40E466949237B3336F5E4D43C1ED0 /* Pods-LoveDating-dummy.m */; };
-		AA1F22F1627869608ACB26B29D67C987 /* Int+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = F475C07E816F06BC13D4C39495CE2338 /* Int+Radians.swift */; };
-		AF5C6DC765F486234F279A144C4DD7AB /* Pods-LoveDating-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D00E9C9385FCC50E1E1382E37E7316 /* Pods-LoveDating-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFF327BE8B365AB0C215A8719931EB44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		B8C6D955A51FBC7FBB0E086E33B30FD0 /* UIBezierPath+Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FF3EA28B5DC117D2729CEE62029D5 /* UIBezierPath+Heart.swift */; };
-		C9DE4E48C146710E9928A08D1526D1AB /* HeartLoadingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 429FB1372E6F1FBE7A3E61D68F0F548E /* HeartLoadingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE09778B11F581150B2A4CD068FCAC73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		0C0378FF8E265FD93658973416F0C6E2 /* FaveButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93426CA8BCE9A3FB761B81969A0839CC /* FaveButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1082145231A5A7268CBCACFC5CF44F4A /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F40A53B46978B2E2B76E4A3E464D76 /* Easing.swift */; };
+		1F9E125938EDDC4E6F91AEBD15E01A94 /* FaveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFB6926E26BC2715782E502C6D56DA /* FaveIcon.swift */; };
+		227CB72F8AF213047A01F6F4668A02A7 /* HeartLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A62981C31F5149C73FD1A7A3E09F78E /* HeartLoadingView-dummy.m */; };
+		2728C570BF673BEC5D7A7B85FA7025D9 /* HeartLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402BE0ED9ED78300EB43A4598E408EF9 /* HeartLoadingView.swift */; };
+		3A28AFFB331275209613D88EEC7F96EB /* FaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CD3BF10531DD05860927AEAD2F54F7 /* FaveButton.swift */; };
+		3E9265962AF75B20B6D5DE4ED3A298A8 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6466FB208F621FA887F3E40E43D246 /* Geometry.swift */; };
+		45A16E3A5F357626C8BCBF3F09BFCD33 /* Pods-LoveDating-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D00E9C9385FCC50E1E1382E37E7316 /* Pods-LoveDating-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4890884ADFC8BA4723E742DD0BD26FED /* Constraints+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4979886CE752B5E7F2E8FDFE6D05A6F1 /* Constraints+.swift */; };
+		5C921F78824B105EDFDD272B4763EA82 /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D28C57A545F87A4363C95366ED9AB2 /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64FFB727B36FAD947B96FB0F4409C048 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */; };
+		827B0E53A4095622FE2D26E402B7C0DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		86A9C5FAB3BB13FACAB7A2C10B11047E /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D99F8F0EA51A6A9E339EDC36DF7AB799 /* Toast-dummy.m */; };
+		8DA1A00E2DB8BC65FF7580EF498C8357 /* FaveButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6197F9E6EE51827B5A567F74D7BFCE6C /* FaveButton-dummy.m */; };
+		8FC075429841BDF34D199EEFFCFEB87C /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = FEACB529334C9C09B49F1C248D3DE058 /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BDCB22D09FC01129DA0D3AC3427AAB9 /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463B08B37E5886DD931FCC65D92C546 /* Spark.swift */; };
+		A560B066A5321C26D7E279A07AA92571 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		A7223E0334CB07FAC29B5D9FBB0FEAF2 /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = FF76E102FE2D4D4D69E8FBA912754584 /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA1F22F1627869608ACB26B29D67C987 /* Int+Radians.swift in Sources */ = {isa = PBXBuildFile; fileRef = A071C735F85FDC34743DDF4DD6720521 /* Int+Radians.swift */; };
+		AFF327BE8B365AB0C215A8719931EB44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		B8C6D955A51FBC7FBB0E086E33B30FD0 /* UIBezierPath+Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E53EFCA6F7D35E8D023F83A782ADCC /* UIBezierPath+Heart.swift */; };
+		C9DE4E48C146710E9928A08D1526D1AB /* HeartLoadingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7A5AD3A5A14730BA8B58C36D8B8FF0 /* HeartLoadingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA6949822D54E0157DB85B7B4EC0E0A /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E529A82A3A98DFE54879A42744E9F1 /* UIView+Toast.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D38542931ED734D2B0613E4EBE2379BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */; };
+		D9628A5ABD7EB757056F17500EBC45CD /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F8D3A98B80D88565BA5C28725C0583 /* Init.swift */; };
+		DECFD342047D3A351582ADAECEC61779 /* Pods-LoveDating-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A40E466949237B3336F5E4D43C1ED0 /* Pods-LoveDating-dummy.m */; };
+		E52AD49F8FB74AD67DB8F1CAFE478ECB /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A019CA020AC71B13E6F9DF8A26CEEF /* Ring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		35B853B9266320BA6D43FECF6B4AF1FE /* PBXContainerItemProxy */ = {
+		49A1DEA8A3E26C62A97382435670D813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0E6CADE645D1F6D09DE0DE2A68C411;
+			remoteInfo = Toast;
+		};
+		BA6A671A8E19BBFA53518408C5DE3B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 593E58645EC26F03DAA1A087EC7DDF13;
+			remoteInfo = FaveButton;
+		};
+		CA30209FDD1B0F8C65FDCA8325B643DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,36 +61,79 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F289AA6959BAACACF842B2B7D9B197 /* FaveButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FaveButton.modulemap; sourceTree = "<group>"; };
+		0485174818ED07D817F66A25D9DF8C08 /* HeartLoadingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HeartLoadingView.modulemap; sourceTree = "<group>"; };
+		09D28C57A545F87A4363C95366ED9AB2 /* Toast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-umbrella.h"; sourceTree = "<group>"; };
+		0A62981C31F5149C73FD1A7A3E09F78E /* HeartLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeartLoadingView-dummy.m"; sourceTree = "<group>"; };
+		179F1ACB11D91BA518AA237D7780EC0D /* Toast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Info.plist"; sourceTree = "<group>"; };
 		25D3D4756FB17A2A6CD7D14E770D9124 /* Pods-LoveDating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveDating.release.xcconfig"; sourceTree = "<group>"; };
-		429FB1372E6F1FBE7A3E61D68F0F548E /* HeartLoadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartLoadingView-umbrella.h"; sourceTree = "<group>"; };
-		4BF342A367CFADFB843B716DA6490DD1 /* HeartLoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeartLoadingView.xcconfig; sourceTree = "<group>"; };
+		39FF2428DF832816A1025B9D30B72C38 /* Toast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toast.xcconfig; sourceTree = "<group>"; };
+		402BE0ED9ED78300EB43A4598E408EF9 /* HeartLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeartLoadingView.swift; path = HeartLoadingView/Classes/HeartLoadingView.swift; sourceTree = "<group>"; };
+		4463B08B37E5886DD931FCC65D92C546 /* Spark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spark.swift; path = Source/Spark.swift; sourceTree = "<group>"; };
+		45E65C6194BE2A31C8CFA8688EA15C61 /* Toast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-prefix.pch"; sourceTree = "<group>"; };
+		48E529A82A3A98DFE54879A42744E9F1 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		4979886CE752B5E7F2E8FDFE6D05A6F1 /* Constraints+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Constraints+.swift"; path = "Source/Helpers/Constraints+.swift"; sourceTree = "<group>"; };
+		4C31CAF5F32A26DE5CA19141A57B2AD3 /* HeartLoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartLoadingView-prefix.pch"; sourceTree = "<group>"; };
 		52D9F82650B097057CB33E8B8516EC23 /* Pods-LoveDating-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoveDating-frameworks.sh"; sourceTree = "<group>"; };
-		540ADBD0652AD4EE63F347748660B451 /* HeartLoadingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HeartLoadingView.modulemap; sourceTree = "<group>"; };
+		54E53EFCA6F7D35E8D023F83A782ADCC /* UIBezierPath+Heart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+Heart.swift"; path = "HeartLoadingView/Classes/UIBezierPath+Heart.swift"; sourceTree = "<group>"; };
+		6197F9E6EE51827B5A567F74D7BFCE6C /* FaveButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FaveButton-dummy.m"; sourceTree = "<group>"; };
 		643AB57E3C5CC90E67D297FC266BC308 /* Pods-LoveDating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoveDating.debug.xcconfig"; sourceTree = "<group>"; };
-		65F0065A72A478D39238D67B310170CA /* HeartLoadingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HeartLoadingView-Info.plist"; sourceTree = "<group>"; };
+		66F98B132FA04F2C7DD990B1AF6B12AC /* FaveButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaveButton-prefix.pch"; sourceTree = "<group>"; };
 		67A40E466949237B3336F5E4D43C1ED0 /* Pods-LoveDating-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoveDating-dummy.m"; sourceTree = "<group>"; };
-		8291273CD8D0A28D78F848AFBB1D68AF /* HeartLoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartLoadingView-prefix.pch"; sourceTree = "<group>"; };
-		89604FC4FC63A02841835D5075A26C75 /* Pods_LoveDating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveDating.framework; path = "Pods-LoveDating.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		85F40A53B46978B2E2B76E4A3E464D76 /* Easing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Easing.swift; path = Source/Helpers/Easing.swift; sourceTree = "<group>"; };
+		871E223E204833DACB5F915ABD725770 /* FaveButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FaveButton-Info.plist"; sourceTree = "<group>"; };
+		8A7A5AD3A5A14730BA8B58C36D8B8FF0 /* HeartLoadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartLoadingView-umbrella.h"; sourceTree = "<group>"; };
+		93426CA8BCE9A3FB761B81969A0839CC /* FaveButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaveButton-umbrella.h"; sourceTree = "<group>"; };
+		93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		97CD3BF10531DD05860927AEAD2F54F7 /* FaveButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FaveButton.swift; path = Source/FaveButton.swift; sourceTree = "<group>"; };
+		9B93F1A3774371D31653538D93AE01E2 /* FaveButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FaveButton.framework; path = FaveButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A071C735F85FDC34743DDF4DD6720521 /* Int+Radians.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Radians.swift"; path = "HeartLoadingView/Classes/Int+Radians.swift"; sourceTree = "<group>"; };
+		A36300F2A6E2B8E7463DE8AA16E0FDA1 /* HeartLoadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HeartLoadingView.framework; path = HeartLoadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45EDA2FA127E4244119DE4D72AF1449 /* HeartLoadingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HeartLoadingView-Info.plist"; sourceTree = "<group>"; };
+		A926747BDCEF7F08C4C691663F76C879 /* Pods_LoveDating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoveDating.framework; path = "Pods-LoveDating.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96D077392AA1A021ADBD82662E8FF27 /* FaveButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaveButton.xcconfig; sourceTree = "<group>"; };
 		AD06902ED4E84A90D370E8F69DE026AA /* Pods-LoveDating-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoveDating-Info.plist"; sourceTree = "<group>"; };
+		AE6144C3CDD4C5B0E38DFE3BBCB4B07D /* Toast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toast.modulemap; sourceTree = "<group>"; };
 		B43B55A97A298D2809EE48F7FE00236D /* Pods-LoveDating.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoveDating.modulemap"; sourceTree = "<group>"; };
 		B63D5589D918661CF6B4CE306CF27263 /* Pods-LoveDating-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoveDating-acknowledgements.plist"; sourceTree = "<group>"; };
+		B664B50DC69FAE718B139B2EB065AE9C /* HeartLoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeartLoadingView.xcconfig; sourceTree = "<group>"; };
+		B9A019CA020AC71B13E6F9DF8A26CEEF /* Ring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ring.swift; path = Source/Ring.swift; sourceTree = "<group>"; };
+		C3F8D3A98B80D88565BA5C28725C0583 /* Init.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Init.swift; path = Source/Helpers/Init.swift; sourceTree = "<group>"; };
 		C5D00E9C9385FCC50E1E1382E37E7316 /* Pods-LoveDating-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoveDating-umbrella.h"; sourceTree = "<group>"; };
-		CAA0E00956C6BF3A60655D2DBB605D4C /* HeartLoadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HeartLoadingView.framework; path = HeartLoadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CCFDC2C6416B4001CB1494DE6A11A3BC /* HeartLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeartLoadingView.swift; path = HeartLoadingView/Classes/HeartLoadingView.swift; sourceTree = "<group>"; };
+		C9FFB6926E26BC2715782E502C6D56DA /* FaveIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FaveIcon.swift; path = Source/FaveIcon.swift; sourceTree = "<group>"; };
 		CFDE5CE35B022B47900487220E3C4764 /* Pods-LoveDating-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoveDating-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D27FF3EA28B5DC117D2729CEE62029D5 /* UIBezierPath+Heart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+Heart.swift"; path = "HeartLoadingView/Classes/UIBezierPath+Heart.swift"; sourceTree = "<group>"; };
-		D5B554F768FE6B24DB97F301970C52BE /* HeartLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeartLoadingView-dummy.m"; sourceTree = "<group>"; };
-		F475C07E816F06BC13D4C39495CE2338 /* Int+Radians.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Radians.swift"; path = "HeartLoadingView/Classes/Int+Radians.swift"; sourceTree = "<group>"; };
+		D99F8F0EA51A6A9E339EDC36DF7AB799 /* Toast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-dummy.m"; sourceTree = "<group>"; };
+		F8677837E79A63A64512D7FA04ED2D13 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast.framework; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6466FB208F621FA887F3E40E43D246 /* Geometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Geometry.swift; path = Source/Helpers/Geometry.swift; sourceTree = "<group>"; };
+		FEACB529334C9C09B49F1C248D3DE058 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		FF76E102FE2D4D4D69E8FBA912754584 /* Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toast.h; path = "Toast-Framework/Toast.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DFF5D192D44AD7C3683B4BF103A79DA5 /* Frameworks */ = {
+		1C4E520741563A0251B064E815CACE56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE09778B11F581150B2A4CD068FCAC73 /* Foundation.framework in Frameworks */,
+				D38542931ED734D2B0613E4EBE2379BC /* Foundation.framework in Frameworks */,
+				64FFB727B36FAD947B96FB0F4409C048 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67531559641A57E266113F3E8609F491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827B0E53A4095622FE2D26E402B7C0DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9643F0AB551A381157FABE85503761D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A560B066A5321C26D7E279A07AA92571 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,33 +148,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18A72AF7272CDF1406F3B573329860A0 /* Products */ = {
+		025807FC757E22CCF92ED232FCDDCE6C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAA0E00956C6BF3A60655D2DBB605D4C /* HeartLoadingView.framework */,
-				89604FC4FC63A02841835D5075A26C75 /* Pods_LoveDating.framework */,
+				0485174818ED07D817F66A25D9DF8C08 /* HeartLoadingView.modulemap */,
+				B664B50DC69FAE718B139B2EB065AE9C /* HeartLoadingView.xcconfig */,
+				0A62981C31F5149C73FD1A7A3E09F78E /* HeartLoadingView-dummy.m */,
+				A45EDA2FA127E4244119DE4D72AF1449 /* HeartLoadingView-Info.plist */,
+				4C31CAF5F32A26DE5CA19141A57B2AD3 /* HeartLoadingView-prefix.pch */,
+				8A7A5AD3A5A14730BA8B58C36D8B8FF0 /* HeartLoadingView-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/HeartLoadingView";
 			sourceTree = "<group>";
 		};
-		21F0F4654A7DBF8B78654215B606D93D /* HeartLoadingView */ = {
+		06F3247D66CA5CB189F4557DDF7EF6D9 /* FaveButton */ = {
 			isa = PBXGroup;
 			children = (
-				CCFDC2C6416B4001CB1494DE6A11A3BC /* HeartLoadingView.swift */,
-				F475C07E816F06BC13D4C39495CE2338 /* Int+Radians.swift */,
-				D27FF3EA28B5DC117D2729CEE62029D5 /* UIBezierPath+Heart.swift */,
-				6DF1AF8341D1F2F48C1C007378F7669B /* Support Files */,
+				4979886CE752B5E7F2E8FDFE6D05A6F1 /* Constraints+.swift */,
+				85F40A53B46978B2E2B76E4A3E464D76 /* Easing.swift */,
+				97CD3BF10531DD05860927AEAD2F54F7 /* FaveButton.swift */,
+				C9FFB6926E26BC2715782E502C6D56DA /* FaveIcon.swift */,
+				FE6466FB208F621FA887F3E40E43D246 /* Geometry.swift */,
+				C3F8D3A98B80D88565BA5C28725C0583 /* Init.swift */,
+				B9A019CA020AC71B13E6F9DF8A26CEEF /* Ring.swift */,
+				4463B08B37E5886DD931FCC65D92C546 /* Spark.swift */,
+				E150AAA307864E2BF11016CAAC0CA201 /* Support Files */,
+			);
+			name = FaveButton;
+			path = FaveButton;
+			sourceTree = "<group>";
+		};
+		117355F9269BA1EA5964240512CF5485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F3247D66CA5CB189F4557DDF7EF6D9 /* FaveButton */,
+				40EE2F309387993A96CC70FC48CEBF66 /* HeartLoadingView */,
+				F4EEFAB6E02CCC6AA30F01C83F6CE20D /* Toast */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882A293BD79D4DA49D52A901C0171109 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F74206178E3BAA71850DCAF32C877B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6144C3CDD4C5B0E38DFE3BBCB4B07D /* Toast.modulemap */,
+				39FF2428DF832816A1025B9D30B72C38 /* Toast.xcconfig */,
+				D99F8F0EA51A6A9E339EDC36DF7AB799 /* Toast-dummy.m */,
+				179F1ACB11D91BA518AA237D7780EC0D /* Toast-Info.plist */,
+				45E65C6194BE2A31C8CFA8688EA15C61 /* Toast-prefix.pch */,
+				09D28C57A545F87A4363C95366ED9AB2 /* Toast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast";
+			sourceTree = "<group>";
+		};
+		40EE2F309387993A96CC70FC48CEBF66 /* HeartLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				402BE0ED9ED78300EB43A4598E408EF9 /* HeartLoadingView.swift */,
+				A071C735F85FDC34743DDF4DD6720521 /* Int+Radians.swift */,
+				54E53EFCA6F7D35E8D023F83A782ADCC /* UIBezierPath+Heart.swift */,
+				025807FC757E22CCF92ED232FCDDCE6C /* Support Files */,
 			);
 			name = HeartLoadingView;
 			path = HeartLoadingView;
 			sourceTree = "<group>";
 		};
-		36DAF13E82E95AF6EEDD4DE580512B8E /* Pods */ = {
+		4D3B8BBAD232D981777B0F0ED0146FC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21F0F4654A7DBF8B78654215B606D93D /* HeartLoadingView */,
+				9B93F1A3774371D31653538D93AE01E2 /* FaveButton.framework */,
+				A36300F2A6E2B8E7463DE8AA16E0FDA1 /* HeartLoadingView.framework */,
+				A926747BDCEF7F08C4C691663F76C879 /* Pods_LoveDating.framework */,
+				F8677837E79A63A64512D7FA04ED2D13 /* Toast.framework */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4F77E20FD8CDDBBD57A54B8C2E543402 /* Pods-LoveDating */ = {
@@ -119,24 +251,11 @@
 			path = "Target Support Files/Pods-LoveDating";
 			sourceTree = "<group>";
 		};
-		6DF1AF8341D1F2F48C1C007378F7669B /* Support Files */ = {
+		882A293BD79D4DA49D52A901C0171109 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				540ADBD0652AD4EE63F347748660B451 /* HeartLoadingView.modulemap */,
-				4BF342A367CFADFB843B716DA6490DD1 /* HeartLoadingView.xcconfig */,
-				D5B554F768FE6B24DB97F301970C52BE /* HeartLoadingView-dummy.m */,
-				65F0065A72A478D39238D67B310170CA /* HeartLoadingView-Info.plist */,
-				8291273CD8D0A28D78F848AFBB1D68AF /* HeartLoadingView-prefix.pch */,
-				429FB1372E6F1FBE7A3E61D68F0F548E /* HeartLoadingView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HeartLoadingView";
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				73A87EFC1E3074BF96CE56BFE8D51A20 /* Foundation.framework */,
+				93CC5787C4D7225262138F10874B1FB4 /* QuartzCore.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -153,29 +272,55 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				36DAF13E82E95AF6EEDD4DE580512B8E /* Pods */,
-				18A72AF7272CDF1406F3B573329860A0 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				117355F9269BA1EA5964240512CF5485 /* Pods */,
+				4D3B8BBAD232D981777B0F0ED0146FC4 /* Products */,
 				C3942185A13BF19E779262DF3AFEA1E4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E150AAA307864E2BF11016CAAC0CA201 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				02F289AA6959BAACACF842B2B7D9B197 /* FaveButton.modulemap */,
+				A96D077392AA1A021ADBD82662E8FF27 /* FaveButton.xcconfig */,
+				6197F9E6EE51827B5A567F74D7BFCE6C /* FaveButton-dummy.m */,
+				871E223E204833DACB5F915ABD725770 /* FaveButton-Info.plist */,
+				66F98B132FA04F2C7DD990B1AF6B12AC /* FaveButton-prefix.pch */,
+				93426CA8BCE9A3FB761B81969A0839CC /* FaveButton-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/FaveButton";
+			sourceTree = "<group>";
+		};
+		F4EEFAB6E02CCC6AA30F01C83F6CE20D /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				FF76E102FE2D4D4D69E8FBA912754584 /* Toast.h */,
+				FEACB529334C9C09B49F1C248D3DE058 /* UIView+Toast.h */,
+				48E529A82A3A98DFE54879A42744E9F1 /* UIView+Toast.m */,
+				3F74206178E3BAA71850DCAF32C877B7 /* Support Files */,
+			);
+			name = Toast;
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8F038EFEF341C97F673B9666DED812D6 /* Headers */ = {
+		68D933F661EF7FA37B05C03B15E02913 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5C6DC765F486234F279A144C4DD7AB /* Pods-LoveDating-umbrella.h in Headers */,
+				45A16E3A5F357626C8BCBF3F09BFCD33 /* Pods-LoveDating-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD65A65F54A06D3E4640B096D94AA15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0378FF8E265FD93658973416F0C6E2 /* FaveButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,26 +332,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FADFAC4C0D79160B0745910900CDAD6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C921F78824B105EDFDD272B4763EA82 /* Toast-umbrella.h in Headers */,
+				A7223E0334CB07FAC29B5D9FBB0FEAF2 /* Toast.h in Headers */,
+				8FC075429841BDF34D199EEFFCFEB87C /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		341F730C0465387D20E546802A9E6968 /* Pods-LoveDating */ = {
+		2B0E6CADE645D1F6D09DE0DE2A68C411 /* Toast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50EAD0CC26560AEE3F99749B278B8CA8 /* Build configuration list for PBXNativeTarget "Pods-LoveDating" */;
+			buildConfigurationList = FE2150007BE748585B60245D93F19729 /* Build configuration list for PBXNativeTarget "Toast" */;
 			buildPhases = (
-				8F038EFEF341C97F673B9666DED812D6 /* Headers */,
-				F5F499EA61C9B778CDA5039E64843C5C /* Sources */,
-				DFF5D192D44AD7C3683B4BF103A79DA5 /* Frameworks */,
-				A35088DB245B2BBF8D64346DE499C77C /* Resources */,
+				FADFAC4C0D79160B0745910900CDAD6A /* Headers */,
+				29C6B8BB0E440BEE9EA33F1814C4DAE8 /* Sources */,
+				1C4E520741563A0251B064E815CACE56 /* Frameworks */,
+				251952FF4AAD2869E8660399230BF1F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9555DA313765FB60B04A2F9633878E24 /* PBXTargetDependency */,
+			);
+			name = Toast;
+			productName = Toast;
+			productReference = F8677837E79A63A64512D7FA04ED2D13 /* Toast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		593E58645EC26F03DAA1A087EC7DDF13 /* FaveButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F36C31B7D6F9D3835027FB209140809 /* Build configuration list for PBXNativeTarget "FaveButton" */;
+			buildPhases = (
+				ADD65A65F54A06D3E4640B096D94AA15 /* Headers */,
+				E41EAD594404FFC3733BB16CBE0F6F33 /* Sources */,
+				9643F0AB551A381157FABE85503761D0 /* Frameworks */,
+				834A49E7C8877C7A09A10EAF920A59F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaveButton;
+			productName = FaveButton;
+			productReference = 9B93F1A3774371D31653538D93AE01E2 /* FaveButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB238468AD0D0ABEEC9C24A979E119B6 /* Pods-LoveDating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81EE28F9237829F5F29F2D53A51DEA8F /* Build configuration list for PBXNativeTarget "Pods-LoveDating" */;
+			buildPhases = (
+				68D933F661EF7FA37B05C03B15E02913 /* Headers */,
+				57F3A9813E6D3B3AD4A4225ED46E2128 /* Sources */,
+				67531559641A57E266113F3E8609F491 /* Frameworks */,
+				B6384BC6761896C7CEE48D8415B10B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B816ECD19068A9696B8CDB61A1817F4B /* PBXTargetDependency */,
+				687D81F5534B9916C08E176EF221DB1F /* PBXTargetDependency */,
+				BC8802C5C03E0AA998AAA0294FD0D450 /* PBXTargetDependency */,
 			);
 			name = "Pods-LoveDating";
 			productName = "Pods-LoveDating";
-			productReference = 89604FC4FC63A02841835D5075A26C75 /* Pods_LoveDating.framework */;
+			productReference = A926747BDCEF7F08C4C691663F76C879 /* Pods_LoveDating.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6D5B2ABFBCE8C810B97776262F40C3E /* HeartLoadingView */ = {
@@ -224,7 +417,7 @@
 			);
 			name = HeartLoadingView;
 			productName = HeartLoadingView;
-			productReference = CAA0E00956C6BF3A60655D2DBB605D4C /* HeartLoadingView.framework */;
+			productReference = A36300F2A6E2B8E7463DE8AA16E0FDA1 /* HeartLoadingView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -244,18 +437,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 18A72AF7272CDF1406F3B573329860A0 /* Products */;
+			productRefGroup = 4D3B8BBAD232D981777B0F0ED0146FC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				593E58645EC26F03DAA1A087EC7DDF13 /* FaveButton */,
 				D6D5B2ABFBCE8C810B97776262F40C3E /* HeartLoadingView */,
-				341F730C0465387D20E546802A9E6968 /* Pods-LoveDating */,
+				BB238468AD0D0ABEEC9C24A979E119B6 /* Pods-LoveDating */,
+				2B0E6CADE645D1F6D09DE0DE2A68C411 /* Toast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A35088DB245B2BBF8D64346DE499C77C /* Resources */ = {
+		251952FF4AAD2869E8660399230BF1F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834A49E7C8877C7A09A10EAF920A59F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,9 +471,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6384BC6761896C7CEE48D8415B10B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		29C6B8BB0E440BEE9EA33F1814C4DAE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A9C5FAB3BB13FACAB7A2C10B11047E /* Toast-dummy.m in Sources */,
+				CAA6949822D54E0157DB85B7B4EC0E0A /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F3A9813E6D3B3AD4A4225ED46E2128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DECFD342047D3A351582ADAECEC61779 /* Pods-LoveDating-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF439B54136412B0976AE6453DD03BF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,27 +509,153 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5F499EA61C9B778CDA5039E64843C5C /* Sources */ = {
+		E41EAD594404FFC3733BB16CBE0F6F33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A7C81B91098F1118AE42A7569E1F32 /* Pods-LoveDating-dummy.m in Sources */,
+				4890884ADFC8BA4723E742DD0BD26FED /* Constraints+.swift in Sources */,
+				1082145231A5A7268CBCACFC5CF44F4A /* Easing.swift in Sources */,
+				8DA1A00E2DB8BC65FF7580EF498C8357 /* FaveButton-dummy.m in Sources */,
+				3A28AFFB331275209613D88EEC7F96EB /* FaveButton.swift in Sources */,
+				1F9E125938EDDC4E6F91AEBD15E01A94 /* FaveIcon.swift in Sources */,
+				3E9265962AF75B20B6D5DE4ED3A298A8 /* Geometry.swift in Sources */,
+				D9628A5ABD7EB757056F17500EBC45CD /* Init.swift in Sources */,
+				E52AD49F8FB74AD67DB8F1CAFE478ECB /* Ring.swift in Sources */,
+				9BDCB22D09FC01129DA0D3AC3427AAB9 /* Spark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9555DA313765FB60B04A2F9633878E24 /* PBXTargetDependency */ = {
+		687D81F5534B9916C08E176EF221DB1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HeartLoadingView;
 			target = D6D5B2ABFBCE8C810B97776262F40C3E /* HeartLoadingView */;
-			targetProxy = 35B853B9266320BA6D43FECF6B4AF1FE /* PBXContainerItemProxy */;
+			targetProxy = CA30209FDD1B0F8C65FDCA8325B643DE /* PBXContainerItemProxy */;
+		};
+		B816ECD19068A9696B8CDB61A1817F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaveButton;
+			target = 593E58645EC26F03DAA1A087EC7DDF13 /* FaveButton */;
+			targetProxy = BA6A671A8E19BBFA53518408C5DE3B30 /* PBXContainerItemProxy */;
+		};
+		BC8802C5C03E0AA998AAA0294FD0D450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			target = 2B0E6CADE645D1F6D09DE0DE2A68C411 /* Toast */;
+			targetProxy = 49A1DEA8A3E26C62A97382435670D813 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		041FD3B46A21D2A2FBB96B1A8F2A1466 /* Release */ = {
+		0FD0E1444DD06692BE777D8363CE46FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96D077392AA1A021ADBD82662E8FF27 /* FaveButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FaveButton/FaveButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaveButton/FaveButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FaveButton/FaveButton.modulemap";
+				PRODUCT_MODULE_NAME = FaveButton;
+				PRODUCT_NAME = FaveButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24E9E4C91FC4BD0A31A4F673055BBF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A96D077392AA1A021ADBD82662E8FF27 /* FaveButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FaveButton/FaveButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaveButton/FaveButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FaveButton/FaveButton.modulemap";
+				PRODUCT_MODULE_NAME = FaveButton;
+				PRODUCT_NAME = FaveButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		403B0776607A9C9C725315BFFE952D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B664B50DC69FAE718B139B2EB065AE9C /* HeartLoadingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HeartLoadingView/HeartLoadingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeartLoadingView/HeartLoadingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HeartLoadingView/HeartLoadingView.modulemap";
+				PRODUCT_MODULE_NAME = HeartLoadingView;
+				PRODUCT_NAME = HeartLoadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C7D9FC81F470AE33FF86230A663FBDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,7 +703,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,7 +715,7 @@
 			};
 			name = Release;
 		};
-		3D2C3A7F9CB0C7AD4FBEA3657F104047 /* Debug */ = {
+		95CDB1BD3AAEFAFB16FDBEBBACC13B2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,7 +766,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,80 +779,7 @@
 			};
 			name = Debug;
 		};
-		403B0776607A9C9C725315BFFE952D41 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BF342A367CFADFB843B716DA6490DD1 /* HeartLoadingView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HeartLoadingView/HeartLoadingView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HeartLoadingView/HeartLoadingView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/HeartLoadingView/HeartLoadingView.modulemap";
-				PRODUCT_MODULE_NAME = HeartLoadingView;
-				PRODUCT_NAME = HeartLoadingView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0BC25185B191D8A626D3082D76AC5F3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 643AB57E3C5CC90E67D297FC266BC308 /* Pods-LoveDating.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LoveDating/Pods-LoveDating-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoveDating/Pods-LoveDating.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D63746E145B9009CAFCDAAB97ECB2619 /* Release */ = {
+		999FA1FB640278AF6008CE48BDA2FBD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25D3D4756FB17A2A6CD7D14E770D9124 /* Pods-LoveDating.release.xcconfig */;
 			buildSettings = {
@@ -517,7 +796,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LoveDating/Pods-LoveDating-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,9 +818,118 @@
 			};
 			name = Release;
 		};
+		BA68B7B3E378CF9733E817F54E9F716A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FF2428DF832816A1025B9D30B72C38 /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE3085BFCC22791C4CA78D95CB082345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FF2428DF832816A1025B9D30B72C38 /* Toast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast/Toast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast/Toast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast/Toast.modulemap";
+				PRODUCT_MODULE_NAME = Toast;
+				PRODUCT_NAME = Toast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0AD89BE0A1395E00C6B76249812C97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643AB57E3C5CC90E67D297FC266BC308 /* Pods-LoveDating.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoveDating/Pods-LoveDating-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoveDating/Pods-LoveDating.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F2A9586BDAE14CD976F1D47BD13E2BCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BF342A367CFADFB843B716DA6490DD1 /* HeartLoadingView.xcconfig */;
+			baseConfigurationReference = B664B50DC69FAE718B139B2EB065AE9C /* HeartLoadingView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -578,20 +966,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		0F36C31B7D6F9D3835027FB209140809 /* Build configuration list for PBXNativeTarget "FaveButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D2C3A7F9CB0C7AD4FBEA3657F104047 /* Debug */,
-				041FD3B46A21D2A2FBB96B1A8F2A1466 /* Release */,
+				24E9E4C91FC4BD0A31A4F673055BBF7A /* Debug */,
+				0FD0E1444DD06692BE777D8363CE46FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50EAD0CC26560AEE3F99749B278B8CA8 /* Build configuration list for PBXNativeTarget "Pods-LoveDating" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0BC25185B191D8A626D3082D76AC5F3 /* Debug */,
-				D63746E145B9009CAFCDAAB97ECB2619 /* Release */,
+				95CDB1BD3AAEFAFB16FDBEBBACC13B2E /* Debug */,
+				7C7D9FC81F470AE33FF86230A663FBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81EE28F9237829F5F29F2D53A51DEA8F /* Build configuration list for PBXNativeTarget "Pods-LoveDating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AD89BE0A1395E00C6B76249812C97E /* Debug */,
+				999FA1FB640278AF6008CE48BDA2FBD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -601,6 +998,15 @@
 			buildConfigurations = (
 				403B0776607A9C9C725315BFFE952D41 /* Debug */,
 				F2A9586BDAE14CD976F1D47BD13E2BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2150007BE748585B60245D93F19729 /* Build configuration list for PBXNativeTarget "Toast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3085BFCC22791C4CA78D95CB082345 /* Debug */,
+				BA68B7B3E378CF9733E817F54E9F716A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

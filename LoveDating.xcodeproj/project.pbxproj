@@ -11,6 +11,12 @@
 		B616AD8D227D47F4005375DA /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616AD8C227D47F4005375DA /* IntroViewController.swift */; };
 		B616AD90227D789D005375DA /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616AD8F227D789D005375DA /* GradiantView.swift */; };
 		B61D8743227ADDC800EC94E2 /* UIButtomCustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8742227ADDC800EC94E2 /* UIButtomCustomExtension.swift */; };
+		B66778D322812609009EAD91 /* SaveCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66778D222812609009EAD91 /* SaveCoreData.swift */; };
+		B66778D52281624B009EAD91 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66778D42281624B009EAD91 /* DataManager.swift */; };
+		B66778D722816EC1009EAD91 /* UIImageViewGifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66778D622816EC1009EAD91 /* UIImageViewGifExtension.swift */; };
+		B66778D922816F8F009EAD91 /* girlGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = B66778D822816F8F009EAD91 /* girlGif.gif */; };
+		B66778DB22816F99009EAD91 /* boyGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = B66778DA22816F99009EAD91 /* boyGif.gif */; };
+		B66778DD228187D1009EAD91 /* LoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66778DC228187D1009EAD91 /* LoveButton.swift */; };
 		B6EEF0C3227BD83000237180 /* TransitionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0C1227BD83000237180 /* TransitionCoordinator.swift */; };
 		B6EEF0C4227BD83000237180 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0C2227BD83000237180 /* CircularTransition.swift */; };
 		B6EEF0C9227BF4FB00237180 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EEF0C6227BF4FB00237180 /* UIColorExtension.swift */; };
@@ -47,6 +53,12 @@
 		B616AD8C227D47F4005375DA /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		B616AD8F227D789D005375DA /* GradiantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
 		B61D8742227ADDC800EC94E2 /* UIButtomCustomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtomCustomExtension.swift; sourceTree = "<group>"; };
+		B66778D222812609009EAD91 /* SaveCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCoreData.swift; sourceTree = "<group>"; };
+		B66778D42281624B009EAD91 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		B66778D622816EC1009EAD91 /* UIImageViewGifExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewGifExtension.swift; sourceTree = "<group>"; };
+		B66778D822816F8F009EAD91 /* girlGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = girlGif.gif; sourceTree = "<group>"; };
+		B66778DA22816F99009EAD91 /* boyGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = boyGif.gif; sourceTree = "<group>"; };
+		B66778DC228187D1009EAD91 /* LoveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoveButton.swift; sourceTree = "<group>"; };
 		B6EEF0C1227BD83000237180 /* TransitionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionCoordinator.swift; sourceTree = "<group>"; };
 		B6EEF0C2227BD83000237180 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 		B6EEF0C6227BF4FB00237180 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -122,6 +134,7 @@
 		B61D8744227ADDCB00EC94E2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				B66778D1228125F3009EAD91 /* Common */,
 				B6EEF0F7227C368100237180 /* Constants */,
 				B6EEF0C0227BD7EA00237180 /* Libary */,
 				B6EEF0C5227BF4E700237180 /* Extension */,
@@ -129,9 +142,18 @@
 			name = Helper;
 			sourceTree = "<group>";
 		};
+		B66778D1228125F3009EAD91 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B66778D222812609009EAD91 /* SaveCoreData.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		B6EEF0C0227BD7EA00237180 /* Libary */ = {
 			isa = PBXGroup;
 			children = (
+				B66778DC228187D1009EAD91 /* LoveButton.swift */,
 				B6EEF0C2227BD83000237180 /* CircularTransition.swift */,
 				B6EEF0C1227BD83000237180 /* TransitionCoordinator.swift */,
 			);
@@ -154,6 +176,7 @@
 				B6EEF10E227C3D6700237180 /* UIImageViewExtension.swift */,
 				B6EEF110227C4FA700237180 /* StringExtension.swift */,
 				B616AD8F227D789D005375DA /* GradiantView.swift */,
+				B66778D622816EC1009EAD91 /* UIImageViewGifExtension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -170,6 +193,7 @@
 		B6EEF0F7227C368100237180 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				B66778D42281624B009EAD91 /* DataManager.swift */,
 				B6EEF0F8227C368F00237180 /* Constants.swift */,
 			);
 			name = Constants;
@@ -230,6 +254,8 @@
 				B6F901EF2272D92300988C89 /* ViewController.swift */,
 				B6F901F12272D92300988C89 /* Main.storyboard */,
 				B6F901F42272D92400988C89 /* Assets.xcassets */,
+				B66778D822816F8F009EAD91 /* girlGif.gif */,
+				B66778DA22816F99009EAD91 /* boyGif.gif */,
 				B6F901F62272D92400988C89 /* LaunchScreen.storyboard */,
 				B6F901F92272D92400988C89 /* Info.plist */,
 				B6EEF0D1227BFAD700237180 /* User.xcdatamodeld */,
@@ -320,6 +346,8 @@
 				B6EEF0D0227BF7E200237180 /* YearBornViewController.xib in Resources */,
 				B6F901F32272D92300988C89 /* Main.storyboard in Resources */,
 				B6F902022272DCD600988C89 /* IntroViewController.xib in Resources */,
+				B66778D922816F8F009EAD91 /* girlGif.gif in Resources */,
+				B66778DB22816F99009EAD91 /* boyGif.gif in Resources */,
 				B6EEF116227C520C00237180 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,13 +386,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LoveDating/Pods-LoveDating-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FaveButton/FaveButton.framework",
 				"${BUILT_PRODUCTS_DIR}/HeartLoadingView/HeartLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaveButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HeartLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -378,6 +410,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66778DD228187D1009EAD91 /* LoveButton.swift in Sources */,
 				B6EEF0FF227C36B400237180 /* BaseNavigationController.swift in Sources */,
 				B6EEF0CA227BF4FB00237180 /* UICollectionViewCellExtension.swift in Sources */,
 				B6EEF10C227C36D600237180 /* UINotificationExtension.swift in Sources */,
@@ -395,6 +428,7 @@
 				B6EEF0D3227BFAD700237180 /* User.xcdatamodeld in Sources */,
 				B616AD90227D789D005375DA /* GradiantView.swift in Sources */,
 				B616AD8D227D47F4005375DA /* IntroViewController.swift in Sources */,
+				B66778D322812609009EAD91 /* SaveCoreData.swift in Sources */,
 				B6F901F02272D92300988C89 /* ViewController.swift in Sources */,
 				B6EEF10D227C36D600237180 /* UITableViewHeaderFooterViewExtension.swift in Sources */,
 				B6EEF0C3227BD83000237180 /* TransitionCoordinator.swift in Sources */,
@@ -402,7 +436,9 @@
 				B6EEF10B227C36D600237180 /* UIViewControllerExtension.swift in Sources */,
 				B6EEF101227C36B400237180 /* BaseTableViewCell.swift in Sources */,
 				B6EEF111227C4FA700237180 /* StringExtension.swift in Sources */,
+				B66778D52281624B009EAD91 /* DataManager.swift in Sources */,
 				B6EEF0F9227C368F00237180 /* Constants.swift in Sources */,
+				B66778D722816EC1009EAD91 /* UIImageViewGifExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,7 +598,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = net.dat.lovedating;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -584,7 +620,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = net.dat.lovedating;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

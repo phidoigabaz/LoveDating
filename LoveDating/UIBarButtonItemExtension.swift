@@ -11,11 +11,12 @@ import UIKit
 
 extension UIBarButtonItem {
     static func menuBarItem(target: AnyObject, btnAction: Selector) -> UIBarButtonItem {
-        let icon = #imageLiteral(resourceName: "menu-button")
-        let btn = UIButton(frame: CGRect(x: 0, y: 0, width: 30, height: 30))
+        let icon = #imageLiteral(resourceName: "menu")
+        var btn = UIButton(frame: CGRect(x: 0, y: 0, width: 30, height: 30))
+        btn = UIButton(type: .system)
         btn.addTarget(target, action: btnAction, for: .touchUpInside)
         btn.setImage(icon, for: .normal)
-
+        btn.tintColor = .white
         return UIBarButtonItem(customView: btn)
     }
 
@@ -29,7 +30,7 @@ extension UIBarButtonItem {
     }
 
     static func notificationBarItem(target: AnyObject, btnAction: Selector) -> UIBarButtonItem {
-        let icon = #imageLiteral(resourceName: "icStorage")
+        let icon = #imageLiteral(resourceName: "woman-with-long-hair")
         let btn = UIButton(frame: CGRect(x: 0, y: 0, width: 30, height: 30))
         btn.addTarget(target, action: btnAction, for: .touchUpInside)
         btn.setImage(icon, for: .normal)
