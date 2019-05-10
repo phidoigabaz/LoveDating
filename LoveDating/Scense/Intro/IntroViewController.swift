@@ -12,6 +12,8 @@ import CoreData
 
 class IntroViewController: BaseViewController {
     
+    @IBOutlet weak var maleImageView: UIImageView!
+    @IBOutlet weak var femaleImageView: UIImageView!
     @IBOutlet weak var femaleButton: UIButton!
     @IBOutlet weak var maleButton: UIButton!
     @IBOutlet weak var genderView: UIView!
@@ -19,6 +21,7 @@ class IntroViewController: BaseViewController {
     @IBOutlet weak var maleView: UIView!
     @IBOutlet weak var skipButton: UIButton!
     @IBOutlet weak var maleTextField: UITextField!
+    @IBOutlet weak var femaleTextField: UITextField!
     @IBOutlet weak var yearBornView: UIView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var timeCurrentLabel: UILabel!
@@ -47,12 +50,20 @@ class IntroViewController: BaseViewController {
         skipButton.tintColor = .white
         displaySkipButton.setBorderButton(.white)
         displaySkipButton.tintColor = .white
-        femaleButton.setBorderButton(.femaleColor)
+        femaleButton.setBorderButton(.originBackground)
         miniYearBornView.setRadiusView(miniYearBornView.frame.height/2)
         timeCurrentLabel.text = timeCurrentLabel.text?.getDateTimeCurrent()
         slider.maximumValue = Float(timeCurrentLabel.text!.getDateTimeCurrent())!
         slider.minimumValue = 1945
         yearBornLabel.text = String(Int(slider.value))
+        femaleTextField.attributedPlaceholder = NSAttributedString(string: "Nhập tên nữ",
+                                                                   attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        maleTextField.attributedPlaceholder = NSAttributedString(string: "Nhập tên nam",
+                                                                 attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        femaleImageView.setRadiusView(femaleImageView.frame.height/2)
+        femaleImageView.image = UIImage.gifImageWithName(name: "girlandcat")
+        maleImageView.setRadiusView(maleImageView.frame.height/2)
+        maleImageView.image = UIImage.gifImageWithName(name: "manGif")
     }
     
     override func setupNav() {
@@ -73,11 +84,15 @@ class IntroViewController: BaseViewController {
         female.isHidden = true
         male.isHidden = false
     }
-
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        femaleImageView.removeFromSuperview()
+    }
     //MARK: ACTIONS
     @IBAction func onSelectFemalePressed(_ sender: UIButton) {
         gender = "nữ"
-        setupGenderView(maleView, femaleView, femaleButton, maleButton, .black, .lightGray, .femaleColor, .white)
+        setupGenderView(maleView, femaleView, femaleButton, maleButton, .black, .lightGray, .originBackground, .white)
         transition.animate(toView: femaleView, fromTriggerButton: maleButton)
     }
     
@@ -88,16 +103,22 @@ class IntroViewController: BaseViewController {
     }
     
     @IBAction func onNextPressed(_ sender: Any) {
-        if isSkip {
-            titleLabel.text = "YearBorn"
-            yearBornView.isHidden = false
-            transition.animate(toView: yearBornView, fromTriggerButton:  maleButton)
-            isSkip = false
+        if !(femaleTextField.text?.trim().isEmpty)!, !(maleTextField.text?.trim().isEmpty)! {
+            femaleTextField.resignFirstResponder()
+            maleTextField.resignFirstResponder()
+            if isSkip {
+                titleLabel.text = "YearBorn"
+                yearBornView.isHidden = false
+                transition.animate(toView: yearBornView, fromTriggerButton:  maleButton)
+                isSkip = false
+            } else {
+                titleLabel.text = "DisplayName"
+                displayNameView.isHidden = false
+                skipButton.isHidden = true
+                transition.animate(toView: displayNameView, fromTriggerButton:  maleButton)
+            }
         } else {
-            titleLabel.text = "DisplayName"
-            displayNameView.isHidden = false
-            skipButton.isHidden = true
-            transition.animate(toView: displayNameView, fromTriggerButton:  maleButton)
+            toast("Xin hãy nhập tên của 2 bạn.")
         }
     }
     
@@ -108,9 +129,9 @@ class IntroViewController: BaseViewController {
     }
     
     @IBAction func onDisplaySkipPressed(_ sender: Any) {
-        if !(displayNameTextField.text?.isEmpty)! {
+        if !(displayNameTextField.text?.trim().isEmpty)! {
             SaveCoreData.shared.saveUserData(displayNameTextField.text!, gender, "", "", String(Int(slider.value)))
-            DataManager.save(object: displayNameTextField.text, forKey: Constants.kUserDefault)
+            DataManager.save(object: displayNameTextField.text!, forKey: Constants.kUserDefault)
             let homeVC = HomeViewController.initWithDefaultNib()
             self.navigationController?.pushViewController(homeVC, animated: true)
             //evaluatePolicy()

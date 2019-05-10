@@ -28,76 +28,97 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
-                            <color key="value" red="0.96078431372549022" green="0.30588235294117649" blue="0.63529411764705879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="value" red="0.33123084902763367" green="0.12024135142564774" blue="0.91822189092636108" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
                         <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
-                            <color key="value" red="1" green="0.46274509803921571" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="value" red="0.87645620107650757" green="0.67716044187545776" blue="0.8169633150100708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl1" translatesAutoresizingMaskIntoConstraints="NO" id="Hfz-PC-cSa">
-                    <rect key="frame" x="155" y="306" width="200" height="200"/>
+                    <rect key="frame" x="155" y="206" width="200" height="200"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="Hfz-PC-cSa" secondAttribute="height" multiplier="1:1" id="uln-Ij-Zu3"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boy" translatesAutoresizingMaskIntoConstraints="NO" id="e3m-ZB-yVJ">
-                    <rect key="frame" x="20" y="306" width="200" height="200"/>
+                    <rect key="frame" x="20" y="206" width="200" height="200"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="e3m-ZB-yVJ" secondAttribute="height" multiplier="1:1" id="XZe-69-NDH"/>
                         <constraint firstAttribute="width" constant="200" id="YGh-al-tgz"/>
                     </constraints>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYf-Jv-CDe" customClass="LoveButton" customModule="LoveDating" customModuleProvider="target">
-                    <rect key="frame" x="162.66666666666666" y="381" width="50" height="50"/>
+                    <rect key="frame" x="162.66666666666666" y="595.33333333333337" width="50" height="50"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="50" id="7Dz-4f-MYd"/>
-                        <constraint firstAttribute="width" secondItem="GYf-Jv-CDe" secondAttribute="height" multiplier="1:1" id="PfS-xA-2yQ"/>
+                        <constraint firstAttribute="height" constant="50" id="CN5-CF-dI6"/>
+                        <constraint firstAttribute="width" constant="50" id="wo0-DP-lKd"/>
                     </constraints>
+                    <state key="normal" image="heart_icon"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="loveColor">
-                            <color key="value" red="0.65542101860000002" green="0.54089182619999998" blue="0.96946817640000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="value" red="0.94165509939193726" green="0.32278609275817871" blue="0.15701580047607422" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="color" keyPath="unLoveColor">
-                            <color key="value" red="0.81029397250000001" green="0.61343401669999997" blue="0.969421804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="value" red="0.94165509939193726" green="0.32278609275817871" blue="0.15701580047607422" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="image" keyPath="loveImage" value="heart"/>
-                        <userDefinedRuntimeAttribute type="image" keyPath="unLoveImage" value="heart"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="loveImage" value="heart_icon"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="unLoveImage" value="heart_icon"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="numberOfHearts">
+                            <integer key="value" value="100"/>
+                        </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="onAnimatePressed:" destination="-1" eventType="touchUpInside" id="xUD-hn-Tie"/>
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3H4-e5-e9u">
-                    <rect key="frame" x="148.66666666666666" y="516" width="77.666666666666657" height="49"/>
-                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="41"/>
+                    <rect key="frame" x="122" y="416" width="131" height="83.666666666666686"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="70"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hai bạn đã yêu nhau đc 100 ngày" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJw-vl-9Sg">
-                    <rect key="frame" x="68.000000000000014" y="565" width="239.33333333333337" height="18"/>
+                    <rect key="frame" x="68.000000000000014" y="499.66666666666669" width="239.33333333333337" height="18.000000000000057"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZI-Dx-5ag">
+                    <rect key="frame" x="40" y="537.66666666666663" width="295" height="57.666666666666629"/>
+                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NỮ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJs-tU-nJR">
+                    <rect key="frame" x="163.33333333333334" y="645.33333333333337" width="48.666666666666657" height="67.666666666666629"/>
+                    <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
+                    <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="7dA-gx-Npb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2e0-dD-9C4"/>
+                <constraint firstItem="TZI-Dx-5ag" firstAttribute="top" secondItem="cJw-vl-9Sg" secondAttribute="bottom" constant="20" id="A5E-uz-h8t"/>
                 <constraint firstItem="Hfz-PC-cSa" firstAttribute="centerY" secondItem="e3m-ZB-yVJ" secondAttribute="centerY" id="Fbc-vq-36Z"/>
                 <constraint firstItem="7dA-gx-Npb" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="Mxt-xw-Dag"/>
+                <constraint firstItem="GYf-Jv-CDe" firstAttribute="top" secondItem="TZI-Dx-5ag" secondAttribute="bottom" id="S9X-85-39W"/>
                 <constraint firstItem="e3m-ZB-yVJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="SIK-rg-8UF"/>
                 <constraint firstItem="7dA-gx-Npb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="XrF-qL-jNa"/>
+                <constraint firstItem="oJs-tU-nJR" firstAttribute="top" secondItem="GYf-Jv-CDe" secondAttribute="bottom" id="Yte-jz-Bpa"/>
+                <constraint firstItem="GYf-Jv-CDe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZIq-Bw-bGa"/>
+                <constraint firstItem="oJs-tU-nJR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bfy-DE-PRx"/>
                 <constraint firstItem="cJw-vl-9Sg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cZ4-CS-WZ0"/>
                 <constraint firstItem="Hfz-PC-cSa" firstAttribute="width" secondItem="e3m-ZB-yVJ" secondAttribute="width" id="dZd-x8-NgF"/>
                 <constraint firstItem="3H4-e5-e9u" firstAttribute="top" secondItem="Hfz-PC-cSa" secondAttribute="bottom" constant="10" id="edp-3H-2On"/>
-                <constraint firstItem="e3m-ZB-yVJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="f5z-tk-yW1"/>
+                <constraint firstItem="e3m-ZB-yVJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="f5z-tk-yW1"/>
                 <constraint firstItem="cJw-vl-9Sg" firstAttribute="top" secondItem="3H4-e5-e9u" secondAttribute="bottom" id="f8y-kq-KLp"/>
-                <constraint firstItem="GYf-Jv-CDe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mCN-jm-Sas"/>
-                <constraint firstItem="GYf-Jv-CDe" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="uCq-3x-Ott"/>
+                <constraint firstItem="TZI-Dx-5ag" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="poW-6V-Gcx"/>
                 <constraint firstItem="3H4-e5-e9u" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xkL-GK-aiN"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Hfz-PC-cSa" secondAttribute="trailing" constant="20" id="xoq-fS-CPy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TZI-Dx-5ag" secondAttribute="trailing" constant="40" id="z3y-AP-u86"/>
                 <constraint firstItem="7dA-gx-Npb" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="ztG-0j-i0G"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
@@ -107,6 +128,6 @@
     <resources>
         <image name="boy" width="564" height="776"/>
         <image name="girl1" width="564" height="564"/>
-        <image name="heart" width="54" height="54"/>
+        <image name="heart_icon" width="240" height="240"/>
     </resources>
 </document>

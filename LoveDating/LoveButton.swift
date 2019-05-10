@@ -31,7 +31,7 @@ class LoveButton: UIButton {
                 return
             }
             // check that the isLoved is equal to true and the old value for the isLoved was false
-            //if isLoved && !oldValue { addHearts() }
+            if isLoved && !oldValue { addHearts() }
             addHearts()
         }
     }

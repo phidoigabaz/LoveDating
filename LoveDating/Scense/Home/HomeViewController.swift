@@ -30,7 +30,6 @@ class HomeViewController: BaseViewController {
         imagePicker.delegate = self
         girlImageView.setRadiusView(girlImageView.frame.height/2)
         boyImageView.setRadiusView(girlImageView.frame.height/2)
-        loveButton.isLoved = true
         let tapGirlGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(girlTapped))
         girlImageView.isUserInteractionEnabled = true
         girlImageView.addGestureRecognizer(tapGirlGestureRecognizer)
@@ -49,7 +48,8 @@ class HomeViewController: BaseViewController {
     }
     
     @objc func menuBarItem() {
-        
+        let menuVC = MenuViewController.initWithDefaultNib()
+        present(menuVC, animated: true, completion: nil)
     }
     
     //MARK: METHODS
@@ -75,13 +75,14 @@ class HomeViewController: BaseViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         let imageView = UIImageView(frame: self.loveButton.frame)
-        imageView.image = UIImage(named: "heart")
+        imageView.image = UIImage(named: "heart_icon")
         self.view.addSubview(imageView)
-
-        UIView.animate(withDuration: 1, animations: { () -> Void in
+        //loveButton.isLoved = true
+        UIView.animate(withDuration: 2, animations: { () -> Void in
             imageView.transform = CGAffineTransform(scaleX: 3,y: 3)
             imageView.alpha = 0
         }) { (completed) -> Void in
+            //self.loveButton.isLoved = false
             imageView.removeFromSuperview()
         }
     }

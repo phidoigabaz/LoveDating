@@ -16,9 +16,12 @@
                 <outlet property="displayNameView" destination="LpN-AG-fNq" id="PAM-Mu-ecl"/>
                 <outlet property="displaySkipButton" destination="Z8f-AD-I8y" id="gUC-Um-ZLw"/>
                 <outlet property="femaleButton" destination="WNK-ao-dF8" id="qiH-kN-a0K"/>
+                <outlet property="femaleImageView" destination="lAj-k3-RJM" id="TbF-Ux-VgR"/>
+                <outlet property="femaleTextField" destination="ZzT-xp-gKt" id="3Fo-cH-aHM"/>
                 <outlet property="femaleView" destination="KKi-55-2LG" id="Ihi-P4-H1u"/>
                 <outlet property="genderView" destination="IiI-xe-yxE" id="zPU-LK-Snb"/>
                 <outlet property="maleButton" destination="XAy-rq-bLN" id="PB7-MO-pNo"/>
+                <outlet property="maleImageView" destination="9DY-4v-oBs" id="7Tc-oL-4ae"/>
                 <outlet property="maleTextField" destination="GmM-LJ-rSd" id="M2d-Un-FV4"/>
                 <outlet property="maleView" destination="T8X-PJ-iJX" id="jQF-zh-AnO"/>
                 <outlet property="miniYearBornView" destination="qOx-cT-kYc" id="5Ce-D9-Yks"/>
@@ -39,14 +42,14 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKi-55-2LG">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="lAj-k3-RJM">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="lAj-k3-RJM">
                             <rect key="frame" x="87" y="248" width="240" height="240"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="240" id="gBQ-Cu-OHR"/>
                                 <constraint firstAttribute="width" secondItem="lAj-k3-RJM" secondAttribute="height" multiplier="1:1" id="m4M-pc-azA"/>
                             </constraints>
                         </imageView>
-                        <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nhập Tên Nữ" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZzT-xp-gKt">
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nhập Tên Nữ" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZzT-xp-gKt">
                             <rect key="frame" x="117" y="508" width="180" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="180" id="PLF-BS-Lwq"/>
@@ -66,7 +69,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" red="0.99607843137254903" green="0.38039215686274508" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.98431372549019602" green="0.40000000000000002" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="lAj-k3-RJM" firstAttribute="centerY" secondItem="KKi-55-2LG" secondAttribute="centerY" id="4hj-vU-p3p"/>
                         <constraint firstItem="ZzT-xp-gKt" firstAttribute="top" secondItem="lAj-k3-RJM" secondAttribute="bottom" constant="20" id="77l-2g-tBF"/>
@@ -76,18 +79,27 @@
                         <constraint firstItem="ZzT-xp-gKt" firstAttribute="centerX" secondItem="KKi-55-2LG" secondAttribute="centerX" id="kga-cl-Zr7"/>
                         <constraint firstItem="lAj-k3-RJM" firstAttribute="centerX" secondItem="KKi-55-2LG" secondAttribute="centerX" id="lhn-ig-d4g"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                            <color key="value" red="0.65542101860000002" green="0.54089182619999998" blue="0.96946817640000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                            <color key="value" red="0.94165509940000003" green="0.32278609279999998" blue="0.1570158005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="isHorizontal" value="NO"/>
+                    </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T8X-PJ-iJX">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man" translatesAutoresizingMaskIntoConstraints="NO" id="9DY-4v-oBs">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="man" translatesAutoresizingMaskIntoConstraints="NO" id="9DY-4v-oBs">
                             <rect key="frame" x="87" y="248" width="240" height="240"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="240" id="F1x-k4-ydB"/>
                                 <constraint firstAttribute="width" secondItem="9DY-4v-oBs" secondAttribute="height" multiplier="1:1" id="MMo-3g-g03"/>
                             </constraints>
                         </imageView>
-                        <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nhập Tên Nam" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GmM-LJ-rSd">
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nhập Tên Nam" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GmM-LJ-rSd">
                             <rect key="frame" x="117" y="508" width="180" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="180" id="FSh-tF-MW8"/>
@@ -124,7 +136,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WNK-ao-dF8">
                             <rect key="frame" x="8" y="8" width="88" height="44"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                            <state key="normal" title="GIRL">
+                            <state key="normal" title="NỮ">
                                 <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                             <connections>
@@ -134,7 +146,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAy-rq-bLN">
                             <rect key="frame" x="104" y="8" width="88" height="44"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                            <state key="normal" title="BOY">
+                            <state key="normal" title="NAM">
                                 <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                             </state>
                             <connections>
@@ -264,8 +276,8 @@
                         <action selector="onNextPressed:" destination="-1" eventType="touchUpInside" id="Lix-1O-b7r"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIg-qJ-nCE">
-                    <rect key="frame" x="16" y="36" width="179" height="30"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chọn Giới Tính" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iIg-qJ-nCE">
+                    <rect key="frame" x="16" y="36" width="183.33333333333334" height="30"/>
                     <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>

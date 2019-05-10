@@ -67,4 +67,8 @@ extension UIColor {
     class var violetDark: UIColor {
         return UIColor.init(hex: "AF5CFF") //D08AFF
     }
+    
+    class var originBackground: UIColor {
+        return UIColor.init(hex: "FB665A")
+    }
 }

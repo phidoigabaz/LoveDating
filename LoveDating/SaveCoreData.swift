@@ -41,11 +41,11 @@ class SaveCoreData: NSObject {
         let context = Constants.appDelegate.persistentContainer.viewContext
         let entity = NSEntityDescription.entity(forEntityName: "Entity", in: context)
         let newUser = NSManagedObject(entity: entity!, insertInto:  context)
-        newUser.setValue(name, forKey: "name")
-        newUser.setValue(gender, forKey: "gender")
-        newUser.setValue(phone, forKey: "phone")
-        newUser.setValue(yearBorn, forKey: "yearborn")
-        newUser.setValue(timelove, forKey: "timelove")
+//        newUser.setValue(name, forKey: "name")
+//        newUser.setValue(gender, forKey: "gender")
+//        newUser.setValue(phone, forKey: "phone")
+//        newUser.setValue(yearBorn, forKey: "yearborn")
+//        newUser.setValue(timelove, forKey: "timelove")
         
         do {
             try context.save()
@@ -76,11 +76,11 @@ class SaveCoreData: NSObject {
         do {
             let result = try context.fetch(request)
             for data in result as! [NSManagedObject] {
-                users.name = data.value(forKey: "name") as? String
-                users.gender = data.value(forKey: "gender") as? String
-                users.phone = data.value(forKey: "phone") as? String
-                users.yearBorn = data.value(forKey: "yearborn") as? String
-                users.timelove = data.value(forKey: "timelove") as? String
+//                users.name = data.value(forKey: "name") as? String
+//                users.gender = data.value(forKey: "gender") as? String
+//                users.phone = data.value(forKey: "phone") as? String
+//                users.yearBorn = data.value(forKey: "yearborn") as? String
+//                users.timelove = data.value(forKey: "timelove") as? String
             }
         } catch {
             print("Failed")
