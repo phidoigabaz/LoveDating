@@ -19,6 +19,16 @@ extension UIBarButtonItem {
         btn.tintColor = .white
         return UIBarButtonItem(customView: btn)
     }
+    
+    static func addBarItem(target: AnyObject, btnAction: Selector) -> UIBarButtonItem {
+        let icon = #imageLiteral(resourceName: "square-add-button")
+        var btn = UIButton(frame: CGRect(x: 0, y: 0, width: 30, height: 30))
+        btn = UIButton(type: .system)
+        btn.addTarget(target, action: btnAction, for: .touchUpInside)
+        btn.setImage(icon, for: .normal)
+        btn.tintColor = .black
+        return UIBarButtonItem(customView: btn)
+    }
 
     static func searchBarItem(target: AnyObject, btnAction: Selector) -> UIBarButtonItem {
         let icon = #imageLiteral(resourceName: "search")
@@ -28,7 +38,7 @@ extension UIBarButtonItem {
 
         return UIBarButtonItem(customView: btn)
     }
-
+    
     static func notificationBarItem(target: AnyObject, btnAction: Selector) -> UIBarButtonItem {
         let icon = #imageLiteral(resourceName: "woman-with-long-hair")
         let btn = UIButton(frame: CGRect(x: 0, y: 0, width: 30, height: 30))

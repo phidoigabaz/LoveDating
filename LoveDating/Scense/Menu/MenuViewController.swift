@@ -24,6 +24,11 @@ class MenuViewController: BaseViewController {
         baseDataModel.parseMenuData()
     }
     
+    override func setupNav() {
+        self.navigationController?.navigationBar.isHidden = false
+        self.navigationItem.hidesBackButton = true
+    }
+    
     //MARK: ACTIONS
     @IBAction func onDismissAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
@@ -34,6 +39,7 @@ extension MenuViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return baseDataModel.sectionModel.count
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return baseDataModel.sectionModel[section].rows.count
     }
@@ -64,5 +70,18 @@ extension MenuViewController: UITableViewDataSource {
 }
 
 extension MenuViewController: UITableViewDelegate {
-   
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.section {
+        case 0:
+            if indexPath.row == 0 {
+                let introVC = IntroViewController.initWithDefaultNib()
+                navigationController?.pushViewController(introVC, animated: true)
+            } else if indexPath.row == 1 {
+                let eventLoveVC = EventLoveViewController.initWithDefaultNib()
+                navigationController?.pushViewController(eventLoveVC, animated: true)
+            }
+        default:
+            break
+        }
+    }
 }

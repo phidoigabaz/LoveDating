@@ -8,9 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A12934196D17142B5A3745D2 /* Pods_LoveDating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A15B7CD7325B75F0BE02D9A /* Pods_LoveDating.framework */; };
+		B606377D228915100011F9A7 /* EventLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B606377B228915100011F9A7 /* EventLoveViewController.swift */; };
+		B606377E228915100011F9A7 /* EventLoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B606377C228915100011F9A7 /* EventLoveViewController.xib */; };
+		B6063780228945B50011F9A7 /* SnakeUICollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B606377F228945B50011F9A7 /* SnakeUICollectionLayout.swift */; };
+		B6063782228945D30011F9A7 /* DraggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6063781228945D30011F9A7 /* DraggingView.swift */; };
+		B6063785228945F60011F9A7 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6063784228945F60011F9A7 /* ItemCell.swift */; };
+		B606378722894D3F0011F9A7 /* AsyncImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B606378622894D3F0011F9A7 /* AsyncImageDownloader.swift */; };
+		B606378B2289577A0011F9A7 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60637892289577A0011F9A7 /* ItemCollectionViewCell.swift */; };
+		B606378C2289577A0011F9A7 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B606378A2289577A0011F9A7 /* ItemCollectionViewCell.xib */; };
+		B606378E22895C920011F9A7 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B606378D22895C920011F9A7 /* ItemModel.swift */; };
+		B606379122895EEB0011F9A7 /* EventLoveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B606379022895EEB0011F9A7 /* EventLoveViewModel.swift */; };
 		B616AD8D227D47F4005375DA /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616AD8C227D47F4005375DA /* IntroViewController.swift */; };
 		B616AD90227D789D005375DA /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B616AD8F227D789D005375DA /* GradiantView.swift */; };
 		B61D8743227ADDC800EC94E2 /* UIButtomCustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D8742227ADDC800EC94E2 /* UIButtomCustomExtension.swift */; };
+		B64CAF182289728600816F6C /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64CAF172289728600816F6C /* CoreDataHelper.swift */; };
 		B66778D322812609009EAD91 /* SaveCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66778D222812609009EAD91 /* SaveCoreData.swift */; };
 		B66778D52281624B009EAD91 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66778D42281624B009EAD91 /* DataManager.swift */; };
 		B66778D722816EC1009EAD91 /* UIImageViewGifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66778D622816EC1009EAD91 /* UIImageViewGifExtension.swift */; };
@@ -64,9 +75,20 @@
 /* Begin PBXFileReference section */
 		6A15B7CD7325B75F0BE02D9A /* Pods_LoveDating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveDating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC5CD93E8ECADC53EE750F9 /* Pods-LoveDating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveDating.release.xcconfig"; path = "Target Support Files/Pods-LoveDating/Pods-LoveDating.release.xcconfig"; sourceTree = "<group>"; };
+		B606377B228915100011F9A7 /* EventLoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLoveViewController.swift; sourceTree = "<group>"; };
+		B606377C228915100011F9A7 /* EventLoveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventLoveViewController.xib; sourceTree = "<group>"; };
+		B606377F228945B50011F9A7 /* SnakeUICollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeUICollectionLayout.swift; sourceTree = "<group>"; };
+		B6063781228945D30011F9A7 /* DraggingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggingView.swift; sourceTree = "<group>"; };
+		B6063784228945F60011F9A7 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		B606378622894D3F0011F9A7 /* AsyncImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloader.swift; sourceTree = "<group>"; };
+		B60637892289577A0011F9A7 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		B606378A2289577A0011F9A7 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		B606378D22895C920011F9A7 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		B606379022895EEB0011F9A7 /* EventLoveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLoveViewModel.swift; sourceTree = "<group>"; };
 		B616AD8C227D47F4005375DA /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		B616AD8F227D789D005375DA /* GradiantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradiantView.swift; sourceTree = "<group>"; };
 		B61D8742227ADDC800EC94E2 /* UIButtomCustomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtomCustomExtension.swift; sourceTree = "<group>"; };
+		B64CAF172289728600816F6C /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		B66778D222812609009EAD91 /* SaveCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCoreData.swift; sourceTree = "<group>"; };
 		B66778D42281624B009EAD91 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		B66778D622816EC1009EAD91 /* UIImageViewGifExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewGifExtension.swift; sourceTree = "<group>"; };
@@ -143,6 +165,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B606377A228914EB0011F9A7 /* Celebrate */ = {
+			isa = PBXGroup;
+			children = (
+				B606378F22895EC50011F9A7 /* ViewModel */,
+				B6063788228957620011F9A7 /* CustomView */,
+				B606377B228915100011F9A7 /* EventLoveViewController.swift */,
+				B606377C228915100011F9A7 /* EventLoveViewController.xib */,
+			);
+			path = Celebrate;
+			sourceTree = "<group>";
+		};
+		B6063783228945D60011F9A7 /* Snakeylist */ = {
+			isa = PBXGroup;
+			children = (
+				B6063784228945F60011F9A7 /* ItemCell.swift */,
+				B606377F228945B50011F9A7 /* SnakeUICollectionLayout.swift */,
+				B6063781228945D30011F9A7 /* DraggingView.swift */,
+				B606378622894D3F0011F9A7 /* AsyncImageDownloader.swift */,
+			);
+			name = Snakeylist;
+			sourceTree = "<group>";
+		};
+		B6063788228957620011F9A7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				B60637892289577A0011F9A7 /* ItemCollectionViewCell.swift */,
+				B606378A2289577A0011F9A7 /* ItemCollectionViewCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		B606378F22895EC50011F9A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B606379022895EEB0011F9A7 /* EventLoveViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B616AD8B227D4571005375DA /* Scense */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +218,7 @@
 		B616AD8E227D4A32005375DA /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				B606377A228914EB0011F9A7 /* Celebrate */,
 				B6D89B082282B87B007AA2AF /* CustomView */,
 				B6D89B0D2282C6C0007AA2AF /* MenuViewController.swift */,
 				B6D89B0E2282C6C0007AA2AF /* MenuViewController.xib */,
@@ -179,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				B66778D222812609009EAD91 /* SaveCoreData.swift */,
+				B64CAF172289728600816F6C /* CoreDataHelper.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -217,6 +280,7 @@
 		B6EEF0C0227BD7EA00237180 /* Libary */ = {
 			isa = PBXGroup;
 			children = (
+				B6063783228945D60011F9A7 /* Snakeylist */,
 				B66778DC228187D1009EAD91 /* LoveButton.swift */,
 				B6EEF0C2227BD83000237180 /* CircularTransition.swift */,
 				B6EEF0C1227BD83000237180 /* TransitionCoordinator.swift */,
@@ -266,6 +330,7 @@
 		B6EEF0FA227C369900237180 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B606378D22895C920011F9A7 /* ItemModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -420,6 +485,8 @@
 				B6D89B102282C6C0007AA2AF /* MenuViewController.xib in Resources */,
 				B66778D922816F8F009EAD91 /* girlGif.gif in Resources */,
 				B66778DB22816F99009EAD91 /* boyGif.gif in Resources */,
+				B606377E228915100011F9A7 /* EventLoveViewController.xib in Resources */,
+				B606378C2289577A0011F9A7 /* ItemCollectionViewCell.xib in Resources */,
 				B6EEF116227C520C00237180 /* HomeViewController.xib in Resources */,
 				B686CA9622856CC600DDE5E9 /* girlandcat.gif in Resources */,
 			);
@@ -461,6 +528,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-LoveDating/Pods-LoveDating-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FaveButton/FaveButton.framework",
 				"${BUILT_PRODUCTS_DIR}/HeartLoadingView/HeartLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -469,6 +537,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaveButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HeartLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,10 +553,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B66778DD228187D1009EAD91 /* LoveButton.swift in Sources */,
+				B606377D228915100011F9A7 /* EventLoveViewController.swift in Sources */,
 				B6EEF0FF227C36B400237180 /* BaseNavigationController.swift in Sources */,
+				B6063782228945D30011F9A7 /* DraggingView.swift in Sources */,
 				B6EEF0CA227BF4FB00237180 /* UICollectionViewCellExtension.swift in Sources */,
 				B6D89AFF2282B577007AA2AF /* Protocols.swift in Sources */,
 				B6EEF10C227C36D600237180 /* UINotificationExtension.swift in Sources */,
+				B606378722894D3F0011F9A7 /* AsyncImageDownloader.swift in Sources */,
 				B6EEF10A227C36D600237180 /* UITableViewCellExtension.swift in Sources */,
 				B6EEF0C9227BF4FB00237180 /* UIColorExtension.swift in Sources */,
 				B6D89AFE2282B577007AA2AF /* HeaderModel.swift in Sources */,
@@ -496,14 +568,18 @@
 				B6EEF0C4227BD83000237180 /* CircularTransition.swift in Sources */,
 				B6EEF100227C36B400237180 /* BaseViewController.swift in Sources */,
 				B6D89AFC2282B577007AA2AF /* BaseDataModel.swift in Sources */,
+				B606378B2289577A0011F9A7 /* ItemCollectionViewCell.swift in Sources */,
 				B6EEF0CF227BF7E200237180 /* YearBornViewController.swift in Sources */,
 				B6EEF115227C520C00237180 /* HomeViewController.swift in Sources */,
 				B6D89B002282B577007AA2AF /* SectionModel.swift in Sources */,
+				B6063785228945F60011F9A7 /* ItemCell.swift in Sources */,
 				B6D89AFD2282B577007AA2AF /* BaseViewModel.swift in Sources */,
 				B6EEF109227C36D600237180 /* UIViewExtension.swift in Sources */,
 				B6EEF0CB227BF4FB00237180 /* UIColor.swift in Sources */,
+				B64CAF182289728600816F6C /* CoreDataHelper.swift in Sources */,
 				B6D89B042282B601007AA2AF /* BaseHeaderTableView.swift in Sources */,
 				B61D8743227ADDC800EC94E2 /* UIButtomCustomExtension.swift in Sources */,
+				B606378E22895C920011F9A7 /* ItemModel.swift in Sources */,
 				B6D89B0C2282B8B2007AA2AF /* MenuItemTableViewCell.swift in Sources */,
 				B6EEF0D3227BFAD700237180 /* User.xcdatamodeld in Sources */,
 				B616AD90227D789D005375DA /* GradiantView.swift in Sources */,
@@ -520,6 +596,8 @@
 				B66778D52281624B009EAD91 /* DataManager.swift in Sources */,
 				B6EEF0F9227C368F00237180 /* Constants.swift in Sources */,
 				B66778D722816EC1009EAD91 /* UIImageViewGifExtension.swift in Sources */,
+				B606379122895EEB0011F9A7 /* EventLoveViewModel.swift in Sources */,
+				B6063780228945B50011F9A7 /* SnakeUICollectionLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

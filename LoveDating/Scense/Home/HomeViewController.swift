@@ -49,7 +49,7 @@ class HomeViewController: BaseViewController {
     
     @objc func menuBarItem() {
         let menuVC = MenuViewController.initWithDefaultNib()
-        present(menuVC, animated: true, completion: nil)
+        navigationController?.pushViewController(menuVC, animated: true)
     }
     
     //MARK: METHODS

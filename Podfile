@@ -7,5 +7,6 @@ target 'LoveDating' do
     pod 'HeartLoadingView'
     pod 'Toast', '~> 4.0.0'
     pod 'FaveButton'
+    pod 'Kingfisher'
 
 end
